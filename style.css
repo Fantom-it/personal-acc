@@ -338,10 +338,7 @@ body {
   margin-top: 10px;
   font-size: 14px;
 }
-.page-1__content__name-input,
-.page-1__content__tele-num-input,
-.page-1__content__password-input,
-.page-1__content__name-input-red:focus {
+.page-1__content__name-input:focus {
   outline: none;
 }
 .page-1__content__name-input-long,
