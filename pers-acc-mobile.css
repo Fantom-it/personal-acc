@@ -245,7 +245,27 @@ body {
 
 
 
-
+.page-1__content__name-input:focus {
+   outline: none;
+}
+.page-1__content__tele-num-input:focus {
+   outline: none;
+}
+.page-1__content__password-input:focus {
+   outline: none;
+}
+.page-1__content__name-input-red:focus {
+   outline: none;
+}
+.page-1__content__name-input:focus {
+  outline: none;
+}
+.page-1__content__name-input-long:focus {
+   outline: none;
+}
+.page-1__content__name-input-long-red:focus {
+   outline: none;
+}
 
 
 
