@@ -353,7 +353,10 @@ body {
   border-radius: 5px;
   margin-top: 10px;
   font-size: 14px;
-  autline: none;
+}
+.page-1__content__name-input-long,
+.page-1__content__name-input-long-red {
+  outline: none;
 }
 .page-1__content__name-input-long-red {
   background: #ffdfdf;
