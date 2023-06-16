@@ -355,7 +355,7 @@ body {
   font-size: 14px;
 }
 .page-1__content__name-input-long,
-.page-1__content__name-input-long-red {
+.page-1__content__name-input-long-red:focus {
   outline: none;
 }
 .page-1__content__name-input-long-red {
