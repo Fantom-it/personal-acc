@@ -627,16 +627,14 @@ body {
 }
 
 .personal-acc-main-page__content {
-  position: absolute;
-  width: 602px;
-  margin: 0;
-  margin-left: 158px;
-  margin-left: 55px;
-  margin-top: 46px !important;
-  white-space: nowrap;
-  /* background: firebrick; */
-  transition-property: margin;
-  transition-duration: 0.5s;
+  width: 1130px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    white-space: nowrap;
+    transition-property: margin;
+    transition-duration: 0.5s;
+    margin-top: 46px !important;
 }
 .personal-acc-main-page__content__main-text {
   font-size: 36px;
