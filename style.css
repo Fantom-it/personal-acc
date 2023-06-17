@@ -738,7 +738,7 @@ body {
 }
 
 .personal-acc-main-page__content__button-save-min {
-  display: none;
+  display: flex;
 }
 
 .-min {
@@ -884,6 +884,9 @@ body {
 .input-pass-div {
   align-items: center;
 }
+@media (width <= 1450px) {
 .show-personal-acc-main-page__content__button-save-min {
-  display: flex !important;
+  display: none !important;
 }
+}
+
