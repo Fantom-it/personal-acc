@@ -884,3 +884,6 @@ body {
 .input-pass-div {
   align-items: center;
 }
+.show-personal-acc-main-page__content__button-save-min {
+  display: flex !important;
+}
