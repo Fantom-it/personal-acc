@@ -740,6 +740,11 @@ body {
 .personal-acc-main-page__content__button-save-min {
   display: flex;
 }
+@media (width <= 1280px) {
+ .personal-acc-main-page__content__button-save-min {
+  display: none !important;
+}
+}
 
 .-min {
   display: none !important;
