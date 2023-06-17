@@ -861,3 +861,8 @@ body {
     width: 602px !important;
   }
 }
+@media (width <= 1450px) {
+.personal-acc-main-page__content {
+    width: 602px;
+}
+}
