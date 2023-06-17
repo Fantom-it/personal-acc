@@ -11,15 +11,103 @@
        
     <div class="personal-acc-main-page" id="personal-page">
 
-        <div class="menu">
-
-            <img class="menu__logo" src="img/logo.svg" alt="">
-
-            <p class="menu__content__text-nok" id="text-nok">НОК</p>
-
-            <img class="menu-menu-img" src="img/menu.svg" alt="">
-
-        </div>
+        <div class="menu-mob" id="menu-mob">
+            <div class="menu-mob__content">
+              <div
+                style="
+                  display: flex;
+                  align-items: center;
+                  height: 45px;
+                  margin-top: 4px;
+                "
+              >
+                <img class="menu-mob__logo" src="img/logo.svg" alt="" />
+    
+    
+                <p class="menu-mob__content__text-nok" id="text-nok">НОК</p>
+    
+                <img class="menu-mob-menu-img" src="img/menu.svg" alt="" id="menu-mob-menu" onclick="menuMob()"/>
+                <img class="crestik menu-mob-menu-img" src="img/crestik.svg" alt="" id="crestik">
+              </div>
+    
+              <div class="menu__content__text-div" id="menu__content__text">
+                <p class="menu__content__text">Независимая Оценка Квалификации</p>
+              </div>
+    
+              <div class="menu__content__puncts" id="puncts">
+                <div class="menu__content__div-2">
+                  <img class="img-dom" src="img/dom.svg" alt="" id="puncts-img" />
+                  <p class="menu__content__div__text" id="text-1">Главная</p>
+                  <img
+                    class="menu__content__div__arrow"
+                    src="img/arrow.svg"
+                    alt=""
+                    id="arrow1"
+                  />
+                </div>
+                <div class="menu__content__div-3">
+                  <img
+                    class="img-koledj"
+                    src="img/koledj.svg"
+                    alt=""
+                    id="puncts-img2"
+                  />
+                  <p class="menu__content__div__text" id="text-2">Обучение</p>
+                  <img
+                    class="menu__content__div__arrow"
+                    src="img/arrow.svg"
+                    alt=""
+                    id="arrow2"
+                  />
+                </div>
+                <div class="menu__content__div-4">
+                  <img
+                    class="img-karandash"
+                    src="img/karandash.svg"
+                    alt=""
+                    id="puncts-img3"
+                  />
+                  <p class="menu__content__div__text" id="text-3">
+                    Запись на экзамен
+                  </p>
+                  <img
+                    class="menu__content__div__arrow"
+                    src="img/arrow.svg"
+                    alt=""
+                    id="arrow3"
+                  />
+                </div>
+                <div class="menu__content__div-5">
+                  <img
+                    class="img-kubok"
+                    src="img/kubok.svg"
+                    alt=""
+                    id="puncts-img4"
+                  />
+                  <p class="menu__content__div__text" id="text-4">Результаты</p>
+                  <img
+                    class="menu__content__div__arrow"
+                    src="img/arrow.svg"
+                    alt=""
+                    id="arrow4"
+                  />
+                </div>
+              </div>
+              <div class="menu__content__profile">
+                <div class="menu__content__profile__avatar" id="profile">
+                  <p>A</p>
+                </div>
+                <div style="height: 50px">
+                  <p class="menu__content__profile__text" id="profile__text">
+                    Мой профиль
+                  </p>
+                  <p class="menu__content__profile__text2" id="profile__text2">
+                    Выйти
+                  </p>
+                </div>
+                </div>
+                </div>
+                </div>
 
            
 
@@ -30,7 +118,7 @@
         </div>
 
         <div>
-          <div class="personal-acc-main-page__content__div-1">
+         
             <p class="page-1__content__text-name">Имя</p>
 
             <input
@@ -39,12 +127,33 @@
               placeholder="Иван"
             />
 
-            <p class="page-1__content__text-name">Компания</p>
+            <p class="page-1__content__text-name">Фамилия</p>
 
             <input
               class="page-1__content__name-input-long"
               type="text"
+              placeholder="Иванов"
+            />
+            <p class="page-1__content__text-name">Компания</p>
+          <input
+              class="page-1__content__name-input-long"
+              type="text"
               placeholder="Название компании"
+            />
+ <p class="page-1__content__text-name">Номер телефона</p>
+
+            <input
+              class="page-1__content__name-input-long"
+              type="text"
+              placeholder="+7 (999) 000 00 00"
+            />
+          
+             <p class="page-1__content__text-name">Email</p>
+
+            <input
+              class="page-1__content__name-input-long-red"
+              type="text"
+              placeholder="ivan.ivanov@mail.ru"
             />
 
             <p class="page-1__content__text-name">Снилс</p>
@@ -54,34 +163,15 @@
               type="text"
               placeholder="124-456-789-01"
             />
+          
+
+          
+
+           
+
+          
           </div>
-
-          <div class="personal-acc-main-page__content__div-2">
-            <p class="page-1__content__text-name">Фамилия</p>
-
-            <input
-              class="page-1__content__name-input-long"
-              type="text"
-              placeholder="Иванов"
-            />
-
-            <p class="page-1__content__text-name">Номер телефона</p>
-
-            <input
-              class="page-1__content__name-input-long"
-              type="text"
-              placeholder="+7 (999) 000 00 00"
-            />
-
-            <p class="page-1__content__text-name">Email</p>
-
-            <input
-              class="page-1__content__name-input-long-red"
-              type="text"
-              placeholder="ivan.ivanov@mail.ru"
-            />
-          </div>
-        </div>
+       
 
         <div >
           <p class="personal-acc-main-page__content__text1">
@@ -222,7 +312,7 @@
 
         <input
           class="page-1__content__name-input-long"
-          type="text"
+          type="password"
           placeholder="***"
         />
         </div>
@@ -235,18 +325,18 @@
   
           <input
             class="page-1__content__name-input-long"
-            type="text"
+            type="password"
             placeholder="***"
           />
         </div>
-        <div style="margin-left: 10px;">
+        <div>
         <p class="page-1__content__text-password">
             Подтвердите пароль <span>*</span>
           </p>
   
           <input
             class="page-1__content__name-input-long"
-            type="text"
+            type="password"
             placeholder="***"
           /> 
         </div>
@@ -390,7 +480,7 @@
 
          
             
-            
+             </div>
             
           
   
