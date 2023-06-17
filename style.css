@@ -549,9 +549,8 @@ body {
 }
 .personal-acc-main-page-div {
   display: flex;
-  width: 1280px;
-  height: 889px;
-  margin: 0 auto;
+    width: 100%;
+    height: 889px;
 }
 .personal-acc-main-page {
   width: 997px;
