@@ -850,3 +850,8 @@ body {
     display: block !important;
   }
 }
+@media (width <= 1300px) {
+  .show-personal-acc-main-page__content-width {
+    width: 602px !important;
+  }
+}
