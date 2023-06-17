@@ -714,10 +714,12 @@ body {
     display: flex !important;
   }
 }
-
+  @media (width <= 1450px) {
 .show-personal-acc-main-page__content__button-save {
   display: flex !important;
 }
+  }
+
 
 .personal-acc-main-page__content__button-save-min {
   position: relative;
