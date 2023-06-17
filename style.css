@@ -634,6 +634,9 @@ body {
     transition-property: margin;
     transition-duration: 0.5s;
     margin-top: 46px !important;
+}@media (width <= 1280px)
+.personal-acc-main-page__content {
+    width: 602px;
 }
 .personal-acc-main-page__content__main-text {
   font-size: 36px;
