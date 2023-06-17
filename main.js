@@ -75,3 +75,11 @@ function menu() {
     .getElementById("arrow-2")
     .classList.toggle("show-menu__content__cricle-arrow2");
 }
+function menuMob() {
+  document.getElementById("menu-mob").classList.toggle("show-menu-mob");
+  document
+    .getElementById("menu-mob-menu")
+    .classList.toggle("show-menu-mob-menu");
+  document.getElementById("crestik").classList.toggle("show-crestik");
+}
+
