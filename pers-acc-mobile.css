@@ -699,7 +699,7 @@ body {
   margin-top: 20px;
 }
 .input-new-pass-div {
-  margin-left: 10px;
+  margin-left: 0px;
 }
 .personal-acc-main-page__content2 {
   display: block;
@@ -1070,5 +1070,25 @@ body {
   color: #ffffff80;
   margin-left: 15px;
   margin-top: 9px;
+}
+body {
+    background: #fff;
+}
+
+.button-glaz {
+  position: absolute;
+  width: 27px;
+  height: 20px;
+  margin-left: -40px;
+  margin-top: 18px;
+  z-index: 4;
+  border: none;
+  background: url(https://esia.gosuslugi.ru/login/password-hidden.4323f54611982effab1a.svg);
+}
+.show-button-glaz {
+  background: url(https://esia.gosuslugi.ru/login/password-shown.89a4ff344525716b3b18.svg);
+}
+.input-pass-div {
+  align-items: center;
 }
 
