@@ -1083,10 +1083,10 @@ body {
   margin-top: 18px;
   z-index: 4;
   border: none;
-  background: url(glaz-none.svg);
+  background: url(img/glaz-none.svg);
 }
 .show-button-glaz {
-  background: url(glaz.svg);
+  background: url(img/glaz.svg);
 }
 .input-pass-div {
   align-items: center;
