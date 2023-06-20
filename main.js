@@ -72,6 +72,10 @@ function menu() {
     .getElementById("personal-page")
     .classList.toggle("show-personal-acc-main-page-margin");
   document
+    .getElementById("personal-page")
+    .classList.toggle("show-personal-acc-main-page-width");
+
+  document
     .getElementById("arrow-2")
     .classList.toggle("show-menu__content__cricle-arrow2");
   document
@@ -113,7 +117,7 @@ let state3 = new Map([
   ["text", "password"],
 ]);
 toggleVisibility3.addEventListener("click", () => {
-  password3.setAttribute("type", state3.get(password3.getAttribute("type")));
+  password3.setAttribute("type", state2.get(password3.getAttribute("type")));
 });
 
 function glaz() {
@@ -131,6 +135,3 @@ function glaz3() {
     .getElementById("toggle-visibility3")
     .classList.toggle("show-button-glaz");
 }
-
-
-
