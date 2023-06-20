@@ -114,8 +114,13 @@
     margin-top: 10px;
   }
   .content2__button-get_access-v2-margin {
+  margin-top: -28px;
+}
+@media (width <= 1630px) {
+  .content2__button-get_access-v2-margin {
     margin-top: -43px;
   }
+}
   .content2__button-get_access-proect-margin {
     margin-top: -30px !important;
   }
