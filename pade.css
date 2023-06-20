@@ -1246,3 +1246,19 @@ body {
   margin-top: 15px;
   margin-left: 35px;
 }
+.pade {
+  display: none;
+}
+@media (width <= 1200px) {
+   .pade {
+    display: block;
+   }
+}
+.pc {
+  
+}
+@media (width <= 1200px) {
+   .pc {
+    display: none;
+   }
+}
