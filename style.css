@@ -1,9 +1,9 @@
 /* page-1 0101010101101010101010101010101011010101010101010101010001011011101010100110101101001011110101010101101111101010101011110110110101110101110 */
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap");
 @media only screen and (max-width: 1200px) {
-  body {
-    display: none;
-  }
+ .personal-acc-main-page-div {
+   display: none;
+ }
   .menu {
   width: 283px;
   width: 80px;
