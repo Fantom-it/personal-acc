@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap");
 @media only screen and (max-width: 1200px) {
  .personal-acc-main-page-div {
-   display: none;
+   display: none !important;
  }
   .menu {
   width: 283px;
