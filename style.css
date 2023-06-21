@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap");
 @media only screen and (max-width: 1200px) {
   body {
-    background: red !important;
+    display: none;
   }
   .menu {
   width: 283px;
