@@ -704,9 +704,9 @@ body {
   }
 }
 
-.show-personal-acc-main-page__content__button-save {
+/*.show-personal-acc-main-page__content__button-save {
   display: flex !important;
-}
+} */
 
 .personal-acc-main-page__content__button-save-min {
   position: relative;
@@ -724,9 +724,12 @@ body {
   margin-left: 10px;
 }
 
-.personal-acc-main-page__content__button-save-min {
-  display: none;
+@media (width <= 1280px) {
+  .personal-acc-main-page__content__button-save-min {
+    display: none;
+  }
 }
+
 
 .-min {
   display: none !important;
