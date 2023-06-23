@@ -1,4 +1,9 @@
 function menu() {
+  document
+    .getElementById("button-arrow-bbb-ggg")
+    .classList.toggle("show-button-arrow-blue");
+  document.getElementById("img-arrow").classList.toggle("show-img-arrow");
+  document.getElementById("menu").classList.toggle("show-menu");
   document.getElementById("menu").classList.toggle("show-menu");
   document
     .getElementById("text-1")
