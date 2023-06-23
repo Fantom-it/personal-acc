@@ -1670,4 +1670,8 @@ body {
  .show-img-arrow {
    transform: rotate(-180deg);
  }
- 
+ @media (width >= 930px) {
+  .button-arrow-blue {
+    display: none;
+  }
+ }
