@@ -81,7 +81,16 @@ function menu() {
   document
     .getElementById("content")
     .classList.toggle("show-personal-acc-main-page__content-width");
+  document
+    .getElementById("arrow-absolute")
+    .classList.toggle("show-arrow-absolute");
 }
+function arrowAbsolute() {
+  document
+    .getElementById("arrow-absolute")
+    .classList.toggle("show-arrow-absolute");
+}
+
 function menuMob() {
   document.getElementById("menu-mob").classList.toggle("show-menu-mob");
   document
@@ -134,4 +143,13 @@ function glaz3() {
   document
     .getElementById("toggle-visibility3")
     .classList.toggle("show-button-glaz");
+}
+function buttonSogl() {
+  document.getElementById("button-sogl").classList.toggle("show-button-sogl");
+}
+function menuClassification() {
+  document.getElementById("block-list").classList.toggle("show-block-list");
+  document
+    .getElementById("blue-min-arrow")
+    .classList.toggle("show-blue-min-arrow");
 }
