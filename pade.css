@@ -1647,3 +1647,27 @@ body {
  .show-arrow-absolute {
    margin-left: 293px;
  }
+.button-arrow-blue {
+  display: flex;
+  position: absolute;
+  margin-left: 70px;
+  transition-property: margin;
+  transition-duration: 0.7s;
+  width: 20px;
+  height: 20px;
+  background: #007ad3;
+  border-radius: 50%;
+  z-index: 2;
+  margin-top: 57px;
+  transform: rotate(180deg);
+ }
+ .show-button-arrow-blue {
+  margin-left: 273px;
+ }
+ .button-arrow-blue img {
+   margin: auto;
+ }
+ .show-img-arrow {
+   transform: rotate(-180deg);
+ }
+ 
