@@ -1,6 +1,6 @@
 function menu() {
  
-  document.getElementById("menu").classList.toggle("show-menu");
+ 
   document.getElementById("menu").classList.toggle("show-menu");
   document
     .getElementById("text-1")
