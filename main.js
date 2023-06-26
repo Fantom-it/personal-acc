@@ -159,3 +159,10 @@ function menuClassification() {
     .getElementById("blue-min-arrow")
     .classList.toggle("show-blue-min-arrow");
 }
+function menuClassificationV2() {
+  document.getElementById("block-list").classList.toggle("show-block-list-v2");
+  document
+    .getElementById("blue-min-arrow")
+    .classList.toggle("show-blue-min-arrow");
+}
+
