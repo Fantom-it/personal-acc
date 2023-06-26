@@ -1697,3 +1697,9 @@ body {
   font-family: 'Roboto';
   margin: auto;
 }
+.block-list-mob {
+  height: 50px !important;
+}
+.show-block-list-v2 {
+  height: 87px !important;
+}
