@@ -1675,3 +1675,18 @@ body {
     display: none;
   }
  }
+.white-top-block__gip {
+  border-bottom: 3px solid #007AD3;
+ }
+ .white-top-block__gip p {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Roboto';
+   margin: auto;
+ }
+ .white-top-block__gap p {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  margin: auto;
+}
