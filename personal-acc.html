@@ -1,0 +1,425 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Personal account 99999999999999999999999999999999</title>
+  </head>
+  <body>
+    <div class="personal-acc-main-page-div">
+      <div class="menu__content__cricle-arrow2" onclick="menu()" id="arrow-2">
+        <img src="img/arrow2.svg" alt="" />
+      </div>
+      <div class="menu" style="overflow: hidden" id="menu">
+        <div
+          class="menu__content"
+          style="overflow: hidden; text-overflow: ellipsis"
+          id="menu__content"
+        >
+          <div class="menu__content__div-1">
+            <img class="img-logo" src="img/logo.svg" alt="" id="img-logo" />
+
+            <p class="menu__content__text-nok" id="text-nok">НОК</p>
+          </div>
+
+          <div class="menu__content__text-div" id="menu__content__text">
+            <p class="menu__content__text">Независимая Оценка Квалификации</p>
+          </div>
+
+          <div class="menu__content__puncts" id="puncts">
+            <div class="menu__content__div-2">
+              <img class="img-dom" src="img/dom.svg" alt="" id="puncts-img" />
+              <p class="menu__content__div__text" id="text-1">Главная</p>
+              <img
+                class="menu__content__div__arrow"
+                src="img/arrow.svg"
+                alt=""
+                id="arrow1"
+              />
+            </div>
+            <div class="menu__content__div-3">
+              <img
+                class="img-koledj"
+                src="img/koledj.svg"
+                alt=""
+                id="puncts-img2"
+              />
+              <p class="menu__content__div__text" id="text-2">Обучение</p>
+              <img
+                class="menu__content__div__arrow"
+                src="img/arrow.svg"
+                alt=""
+                id="arrow2"
+              />
+            </div>
+            <div class="menu__content__div-4">
+              <img
+                class="img-karandash"
+                src="img/karandash.svg"
+                alt=""
+                id="puncts-img3"
+              />
+              <p class="menu__content__div__text" id="text-3">
+                Запись на экзамен
+              </p>
+              <img
+                class="menu__content__div__arrow"
+                src="img/arrow.svg"
+                alt=""
+                id="arrow3"
+              />
+            </div>
+            <div class="menu__content__div-5">
+              <img
+                class="img-kubok"
+                src="img/kubok.svg"
+                alt=""
+                id="puncts-img4"
+              />
+              <p class="menu__content__div__text" id="text-4">Результаты</p>
+              <img
+                class="menu__content__div__arrow"
+                src="img/arrow.svg"
+                alt=""
+                id="arrow4"
+              />
+            </div>
+          </div>
+          <div class="menu__content__profile">
+            <div class="menu__content__profile__avatar" id="profile">
+              <p>A</p>
+            </div>
+            <div style="height: 50px">
+              <p class="menu__content__profile__text" id="profile__text">
+                Мой профиль
+              </p>
+              <p class="menu__content__profile__text2" id="profile__text2">
+                Выйти
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="menu__content__cricle-arrow" onclick="menu()">
+        <img src="img/arrow2.svg" alt="" />
+      </div>-->
+
+      <div class="personal-acc-main-page" id="personal-page">
+        <div class="menu__content__cricle-arrow" onclick="menu()">
+          <img src="img/arrow2.svg" alt="" />
+        </div>
+        <div class="personal-acc-main-page__content" id="content">
+          <p class="personal-acc-main-page__content__main-text">
+            Личный кабинет
+          </p>
+
+          <div class="personal-acc-main-page__content__div-avatar">
+            <div class="personal-acc-main-page__content__avatar">
+              <img
+                class="personal-acc-main-page__content__avatar-img"
+                src="img/А.png"
+                alt=""
+              />
+            </div>
+            <p class="text-red-photo">Изменить фото</p>
+          </div>
+
+          <div style="display: flex">
+            <div class="personal-acc-main-page__content__div-1">
+              <p class="page-1__content__text-name">Имя</p>
+
+              <input
+                class="page-1__content__name-input-long"
+                type="text"
+                placeholder="Иван"
+              />
+
+              <p class="page-1__content__text-name">Компания</p>
+
+              <input
+                class="page-1__content__name-input-long"
+                type="text"
+                placeholder="Название компании"
+              />
+
+              <p class="page-1__content__text-name">Снилс</p>
+
+              <input
+                class="page-1__content__name-input-long-red"
+                type="number"
+                placeholder="124-456-789-01"
+              />
+            </div>
+
+            <div class="personal-acc-main-page__content__div-2">
+              <p class="page-1__content__text-name">Фамилия</p>
+
+              <input
+                class="page-1__content__name-input-long"
+                type="text"
+                placeholder="Иванов"
+              />
+
+              <p class="page-1__content__text-name">Номер телефона</p>
+
+              <input
+                class="page-1__content__name-input-long"
+                type="number"
+                placeholder="+7 (999) 000 00 00"
+              />
+
+              <p class="page-1__content__text-name">Email</p>
+
+              <input
+                class="page-1__content__name-input-long-red"
+                type="text"
+                placeholder="ivan.ivanov@mail.ru"
+              />
+            </div>
+
+            <div
+              class="personal-acc-main-page__content__button-save-min"
+              id="button-save-min"
+            >
+              <p>Сохранить</p>
+            </div>
+          </div>
+
+          <div style="display: flex">
+            <p class="personal-acc-main-page__content__text1">
+              <span>*</span> Заполните все поля чтобы открыть полный доступ
+            </p>
+
+            <div
+              class="personal-acc-main-page__content__button-save"
+              id="button-save"
+            >
+              <p>Сохранить</p>
+            </div>
+          </div>
+
+          <div style="display: flex">
+            <div class="personal-acc-main-page__content__band1">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div
+                class="personal-acc-main-page__content__band2__div"
+                style="display: flex"
+              >
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+          </div>
+
+          <p class="text-red-password">Изменить пароль</p>
+
+          <div class="personal-acc-main-page__content2" id="content2">
+            <div>
+              <p class="page-1__content__text-password">
+                Текущий пароль <span>*</span>
+              </p>
+
+              <input
+                class="page-1__content__name-input-long"
+                type="password"
+                placeholder="********"
+                id="password"
+              />
+              <button
+                class="button-glaz"
+                id="toggle-visibility"
+                onclick="glaz()"
+              ></button>
+    
+            </div>
+
+            <div style="display: flex">
+              <div class="input-new-pass-div">
+                <p class="page-1__content__text-password">
+                  Новый пароль<span>*</span>
+                </p>
+
+                <input
+                  class="page-1__content__name-input-long"
+                  type="password"
+                  placeholder="********"
+                  id="password2"
+                />
+                 <button
+                class="button-glaz"
+                id="toggle-visibility2"
+                onclick="glaz2()"
+              ></button>
+              </div>
+              <div style="margin-left: 10px">
+                <p class="page-1__content__text-password">
+                  Подтвердите пароль <span>*</span>
+                </p>
+
+                <input
+                  class="page-1__content__name-input-long"
+                  type="password"
+                  placeholder="********"
+                  id="password3"
+                />
+                <button
+                class="button-glaz"
+                id="toggle-visibility3"
+                onclick="glaz3()"
+              ></button>
+              </div>
+            </div>
+
+            <!-- <div style="display: flex"> -->
+
+            <div class="personal-acc-main-page__content__button-red" id="red">
+              <p>Изменить</p>
+            </div>
+          </div>
+
+          <p class="personal-acc-main-page__content__text2">
+            <span>*</span> Заполните все поля чтобы открыть полный доступ
+          </p>
+          <!--   </div>-->
+
+           <img src="img/Line 6.svg" alt="">
+        
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
+
