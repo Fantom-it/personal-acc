@@ -1675,7 +1675,14 @@ body {
     display: none;
   }
  }
-.white-top-block__gip {
+.white-top-block__gip,
+ .white-top-block__gap {
+     display: flex;
+     width: 265px;
+     height: 61px;
+     margin-top: auto;
+ }
+ .white-top-block__gip {
   border-bottom: 3px solid #007AD3;
  }
  .white-top-block__gip p {
