@@ -1668,7 +1668,7 @@ body {
    margin: auto;
  }
  .show-img-arrow {
-   transform: rotate(-180deg);
+   transform: rotate(-180deg) !important;
  }
  @media (width >= 930px) {
   .button-arrow-blue {
