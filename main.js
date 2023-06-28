@@ -3,8 +3,9 @@ function menu() {
     .getElementById("button-arrow-bbb-ggg")
     .classList.toggle("show-button-arrow-blue");
   document.getElementById("img-arrow").classList.toggle("show-img-arrow"); 
-/*  document.getElementById("img-arrow-2").classList.toggle("show-img-arrow-2");
-  document.getElementById("arrow-page").classList.toggle("show-img-arrow"); */
+  document.getElementById("img-arrow-2").classList.toggle("show-img-arrow-2");
+   document.getElementById("img-arrow-3").classList.toggle("show-img-arrow-2");
+/*  document.getElementById("arrow-page").classList.toggle("show-img-arrow"); */
  
   document.getElementById("menu").classList.toggle("show-menu");
   document
