@@ -1241,5 +1241,10 @@ body {
   margin-left: 35px;
 }
 .line-punctir {
-    margin-top: 20px;
+    margin-top: 10px;
+}
+@media (width <= 1280px) {
+    .line-punctir {
+        margin-top: 40px;
+    }
 }
