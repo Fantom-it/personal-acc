@@ -621,6 +621,7 @@ body {
   /* background: firebrick; */
   transition-property: margin;
   transition-duration: 0.5s;
+   overflow: hidden;
 }
 @media (width <= 1280px) {
   .personal-acc-main-page__content {
