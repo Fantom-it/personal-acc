@@ -1237,6 +1237,9 @@ body {
 }
 .str-besp-pade-content {
   width: calc(100% - 80px);
-  margin-top: 15px;
+  margin-top: 15px.
   margin-left: 35px;
+}
+.line-punctir {
+    margin-top: 20px;
 }
