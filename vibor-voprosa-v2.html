@@ -1,0 +1,826 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="pade.css" />
+    <link rel="stylesheet" href="results.css" />
+    <link rel="stylesheet" href="menu-mobile.css" />
+    <title>Банк вопросов выбор вопроса</title>
+  </head>
+  <body style="background: #eff4f7">
+    <div class="personal-acc-main-page-div page-pc">
+      <!-- <div class="menu__content__cricle-arrow2" onclick="menu()" id="arrow-2">
+        <img src="img/arrow2.svg" alt="" />
+      </div> -->
+      <div class="button-arrow-blue" id="button-arrow-bbb-ggg" onclick="menu()">
+        <img id="img-arrow" src="img/arrow2.svg" alt="" />
+      </div>
+      <div class="menu" style="overflow: hidden; height: 1000px" id="menu">
+        <div
+          class="menu__content"
+          style="overflow: hidden; text-overflow: ellipsis"
+          id="menu__content"
+        >
+          <div class="menu__content__div-1">
+            <img class="img-logo" src="img/logo.svg" alt="" id="img-logo" />
+
+            <p class="menu__content__text-nok" id="text-nok">НОК</p>
+          </div>
+
+          <div class="menu__content__text-div" id="menu__content__text">
+            <p class="menu__content__text">Независимая Оценка Квалификации</p>
+          </div>
+
+          <div class="menu__content__puncts" id="puncts">
+            <div class="menu__content__div-2">
+              <img class="img-dom" src="img/dom.svg" alt="" id="puncts-img" />
+              <p class="menu__content__div__text" id="text-1">Главная</p>
+              <img
+                class="menu__content__div__arrow"
+                src="img/arrow.svg"
+                alt=""
+                id="arrow1"
+              />
+            </div>
+            <div class="menu__content__div-3">
+              <img
+                class="img-koledj"
+                src="img/koledj.svg"
+                alt=""
+                id="puncts-img2"
+              />
+              <p class="menu__content__div__text" id="text-2">Обучение</p>
+              <img
+                class="menu__content__div__arrow"
+                src="img/arrow.svg"
+                alt=""
+                id="arrow2"
+              />
+            </div>
+            <div class="menu__content__div-4">
+              <img
+                class="img-karandash"
+                src="img/karandash.svg"
+                alt=""
+                id="puncts-img3"
+              />
+              <p class="menu__content__div__text" id="text-3">
+                Запись на экзамен
+              </p>
+              <img
+                class="menu__content__div__arrow"
+                src="img/arrow.svg"
+                alt=""
+                id="arrow3"
+              />
+            </div>
+            <div class="menu__content__div-5">
+              <img
+                class="img-kubok"
+                src="img/kubok.svg"
+                alt=""
+                id="puncts-img4"
+              />
+              <p class="menu__content__div__text" id="text-4">Результаты</p>
+              <img
+                class="menu__content__div__arrow"
+                src="img/arrow.svg"
+                alt=""
+                id="arrow4"
+              />
+            </div>
+          </div>
+          <div class="menu__content__profile">
+            <div class="menu__content__profile__avatar" id="profile">
+              <p>A</p>
+            </div>
+            <div style="height: 50px">
+              <p class="menu__content__profile__text" id="profile__text">
+                Мой профиль
+              </p>
+              <p class="menu__content__profile__text2" id="profile__text2">
+                Выйти
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="menu__content__cricle-arrow" onclick="menu()">
+        <img src="img/arrow2.svg" alt="" />
+      </div>-->
+
+      <div class="personal-acc-main-page" id="personal-page">
+        <!-- <div class="menu__content__cricle-arrow" onclick="menu()">
+          <img src="img/arrow2.svg" alt="" />
+        </div>-->
+        <div
+          class="menu__content__cricle-arrow"
+          onclick="menu()"
+          id="arrow-page"
+        >
+          <img src="img/arrow2.svg" alt="" />
+        </div>
+
+        <div class="page__content media-display-none">
+          <p class="page__content__main-item">Банк вопросов</p>
+          <div class="view-results__content__button-1">
+            <div>
+              <img src="img/arrow-back.svg" alt="" />
+              <p>Назад</p>
+            </div>
+          </div>
+
+          <div class="bank-voprosov__block1">
+            <div class="bank-voprosov__block1__content">
+              <p class="bank-voprosov__block1__content__text-1">
+                <span>Квалификация</span>: Строитель
+              </p>
+              <p
+                class="bank-voprosov__block1__content__text-1"
+                style="margin-top: 10px"
+              >
+                <span>Профстандарт</span>: Специалист по организации
+                строительства
+              </p>
+              <div style="display: flex; width: 100%">
+                <input
+                  class="bank-voprosov__block1__content__input"
+                  type="text"
+                  placeholder="Введите номер вопроса"
+                />
+                <img
+                  class="bank-voprosov__block1__content__input__img"
+                  src="img/lupa.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="view-results__content__main-block" style="height: 507px">
+            <div class="view-results__content__main-block__content">
+              <div style="display: flex; width: 100%; align-items: center">
+                <p
+                  class="view-results__content__main-block__content__main-text"
+                >
+                  Вопрос (1 из 485)
+                </p>
+
+                <!-- <div style="display: flex; margin-left: auto">
+                  <div
+                    class="view-results__content__main-block__content__button-arrow"
+                  >
+                    <img src="img/blue-arrow-left.svg" alt="" />
+                  </div>
+                  <div
+                    class="view-results__content__main-block__content__button-arrow-2"
+                  >
+                    <img src="img/blue-arrow-left.svg" alt="" />
+                  </div>
+                </div>-->
+              </div>
+
+              <p class="view-results__content__main-block__content__text">
+                Какая характеристика объекта капитального строительства в
+                соответствии с проектной документацией НЕ относит его к
+                уникальным объектам?
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="view-results__content__main-block__content__block-input"
+            style="margin-top: -323px; height: 210px"
+          >
+            <div style="display: flex; width: 100%">
+              <div
+                class="probniy-test__cricle"
+                id="probniy-test__cricle"
+                onclick="probniyTestCricle()"
+              ></div>
+              <input
+                class="view-results__content__main-block__content__input-1"
+                type="text"
+                placeholder="*********"
+                style="height: 45px; padding-left: 45px; padding-top: 20px"
+              />
+            </div>
+            <div style="display: flex; width: 100%">
+              <div
+                class="probniy-test__cricle"
+                id="probniy-test__cricle2"
+                onclick="probniyTestCricle2()"
+              ></div>
+              <input
+                class="view-results__content__main-block__content__input-2"
+                type="text"
+                placeholder="*********"
+                style="height: 45px; padding-left: 45px; padding-top: 20px"
+              />
+            </div>
+            <div style="display: flex; width: 100%">
+              <div
+                class="probniy-test__cricle"
+                id="probniy-test__cricle3"
+                onclick="probniyTestCricle3()"
+              ></div>
+              <input
+                class="view-results__content__main-block__content__input-3"
+                type="text"
+                placeholder="*********"
+                style="height: 45px; padding-left: 45px; padding-top: 20px"
+              />
+            </div>
+            <div style="display: flex; width: 100%">
+              <div
+                class="probniy-test__cricle"
+                id="probniy-test__cricle4"
+                onclick="probniyTestCricle4()"
+              ></div>
+              <input
+                class="view-results__content__main-block__content__input-1"
+                type="text"
+                placeholder="*********"
+                style="height: 45px; padding-left: 45px; padding-top: 20px"
+              />
+            </div>
+          </div>
+
+          <div style="display: flex; width: 100%">
+            <div
+              style="
+                display: flex;
+                margin: 0 auto;
+                align-items: center;
+                height: 53px;
+                margin-top: 30px;
+              "
+            >
+              <div
+                class="view-results__content__main-block__content__button-arrow"
+                style="margin: 0; width: 80px; height: 53px"
+              >
+                <img src="img/blue-arrow-left.svg" alt="" />
+              </div>
+              <div
+                class="view-results__content__main-block__content__block-input__button-blue dop-style"
+                style="margin: 0; margin-left: 20px; margin-right: 20px"
+              >
+                <p>Ответить</p>
+              </div>
+              <div
+                class="view-results__content__main-block__content__button-arrow-2"
+                style="width: 80px; height: 53px"
+              >
+                <img src="img/blue-arrow-left.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PADE PADE PADE PADE PADE PADE PADE PADE PADE PADE PADE PADE PADE PADE -->
+
+        <div
+          class="page__content media-display-block"
+          style="width: calc(100% - 81px); margin-left: 35px"
+        >
+          <p class="page__content__main-item">Банк вопросов</p>
+          <div class="view-results__content__button-1">
+            <div>
+              <img src="img/arrow-back.svg" alt="" />
+              <p>Назад</p>
+            </div>
+          </div>
+
+          <div class="bank-voprosov__block1" style="height: 197.27px">
+            <div
+              class="bank-voprosov__block1__content"
+              style="margin-top: 30px; width: calc(100% - 40px)"
+            >
+              <p class="bank-voprosov__block1__content__text-1">
+                <span>Квалификация</span>: Строитель
+              </p>
+              <p
+                class="bank-voprosov__block1__content__text-1"
+                style="margin-top: 10px"
+              >
+                <span>Профстандарт</span>: Специалист по организации
+                строительства
+              </p>
+              <div style="display: flex; width: 100%">
+                <input
+                  class="bank-voprosov__block1__content__input"
+                  type="text"
+                  placeholder="Введите номер вопроса"
+                />
+                <img
+                  class="bank-voprosov__block1__content__input__img"
+                  src="img/lupa.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="view-results__content__main-block" style="height: 562px">
+            <div
+              class="view-results__content__main-block__content"
+              style="width: calc(100% - 40px)"
+            >
+              <div style="display: flex; width: 100%; align-items: center">
+                <p
+                  class="view-results__content__main-block__content__main-text"
+                  style="font-size: 22px"
+                >
+                  Вопрос (1 из 485)
+                </p>
+
+                <!-- <div style="display: flex; margin-left: auto">
+              <div
+                class="view-results__content__main-block__content__button-arrow"
+              >
+                <img src="img/blue-arrow-left.svg" alt="" />
+              </div>
+              <div
+                class="view-results__content__main-block__content__button-arrow-2"
+              >
+                <img src="img/blue-arrow-left.svg" alt="" />
+              </div>
+            </div>-->
+              </div>
+
+              <p
+                class="view-results__content__main-block__content__text"
+                style="font-size: 16px; margin-top: 20px"
+              >
+                Какая характеристика объекта капитального строительства в
+                соответствии с проектной документацией НЕ относит его к
+                уникальным объектам?
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="view-results__content__main-block__content__block-input"
+            style="margin-top: -409px; height: 233px; width: calc(100% - 40px)"
+          >
+            <div style="display: flex; width: 100%">
+              <div
+                class="probniy-test__cricle"
+                id="probniy-test__cricle"
+                onclick="probniyTestCricle()"
+              ></div>
+              <input
+                class="view-results__content__main-block__content__input-1"
+                type="text"
+                placeholder="*********"
+                style="height: 45px; padding-left: 45px; padding-top: 20px"
+              />
+            </div>
+            <div style="display: flex; width: 100%">
+              <div
+                class="probniy-test__cricle"
+                id="probniy-test__cricle2"
+                onclick="probniyTestCricle2()"
+              ></div>
+              <input
+                class="view-results__content__main-block__content__input-2"
+                type="text"
+                placeholder="*********"
+                style="height: 68px; padding-left: 45px; padding-top: 20px"
+              />
+            </div>
+            <div style="display: flex; width: 100%">
+              <div
+                class="probniy-test__cricle"
+                id="probniy-test__cricle3"
+                onclick="probniyTestCricle3()"
+              ></div>
+              <input
+                class="view-results__content__main-block__content__input-3"
+                type="text"
+                placeholder="*********"
+                style="height: 45px; padding-left: 45px; padding-top: 20px"
+              />
+            </div>
+            <div style="display: flex; width: 100%">
+              <div
+                class="probniy-test__cricle"
+                id="probniy-test__cricle4"
+                onclick="probniyTestCricle4()"
+              ></div>
+              <input
+                class="view-results__content__main-block__content__input-1"
+                type="text"
+                placeholder="*********"
+                style="height: 45px; padding-left: 45px; padding-top: 20px"
+              />
+            </div>
+          </div>
+
+          <div style="display: flex; width: 100%">
+            <div
+              style="
+                display: flex;
+                margin: 0 auto;
+                align-items: center;
+                height: 53px;
+                margin-top: 20px;
+              "
+            >
+              <!--<div
+            class="view-results__content__main-block__content__button-arrow"
+            style="margin: 0; width: 80px; height: 53px"
+          >
+            <img src="img/blue-arrow-left.svg" alt="" />
+          </div>-->
+              <div
+                class="view-results__content__main-block__content__block-input__button-blue dop-style"
+                style="margin: 0; margin-left: 20px; margin-right: 20px"
+              >
+                <p>Ответить</p>
+              </div>
+              <!-- <div
+            class="view-results__content__main-block__content__button-arrow-2"
+            style="width: 80px; height: 53px"
+          >
+            <img src="img/blue-arrow-left.svg" alt="" />
+          </div>-->
+            </div>
+          </div>
+          <div
+            style="
+              display: flex;
+              margin: 0 auto;
+              width: 170px;
+              margin-top: 20px;
+            "
+          >
+            <div
+              class="view-results__content__main-block__content__button-arrow"
+              style="margin: 0; width: 80px; height: 53px; margin-right: 10px"
+            >
+              <img src="img/blue-arrow-left.svg" alt="" />
+            </div>
+            <div
+              class="view-results__content__main-block__content__button-arrow-2"
+              style="width: 80px; height: 53px"
+            >
+              <img src="img/blue-arrow-left.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE -->
+
+    <div
+      class="personal-acc-main-page-div page-mob"
+      style="background: #eff4f7; display: block; height: 700px"
+    >
+      <!-- <div class="menu__content__cricle-arrow2" onclick="menu()" id="arrow-2">
+        <img src="img/arrow2.svg" alt="" />
+      </div> -->
+      <div class="menu-mob" id="menu-mob">
+        <div class="menu-mob__content">
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              height: 45px;
+              margin-top: 4px;
+            "
+          >
+            <img class="menu-mob__logo" src="img/logo.svg" alt="" />
+
+            <p class="menu-mob__content__text-nok" id="text-nok">НОК</p>
+
+            <img
+              class="menu-mob-menu-img"
+              src="img/menu.svg"
+              alt=""
+              id="menu-mob-menu"
+              onclick="menuMob()"
+            />
+            <img
+              class="crestik menu-mob-menu-img"
+              src="img/crestik.svg"
+              alt=""
+              id="crestik"
+            />
+          </div>
+
+          <div class="menu__content__text-div-mobile" id="menu__content__text">
+            <p class="menu__content__text-mobile">
+              Независимая Оценка Квалификации
+            </p>
+          </div>
+
+          <div class="menu__content__puncts-mobile" id="puncts">
+            <div class="menu__content__div-2-mobile">
+              <img
+                class="img-dom-mobile"
+                src="img/dom.svg"
+                alt=""
+                id="puncts-img"
+              />
+              <p class="menu__content__div__text-mobile" id="text-1">Главная</p>
+              <img
+                class="menu__content__div__arrow-mobile"
+                src="img/arrow.svg"
+                alt=""
+                id="arrow1"
+              />
+            </div>
+            <div class="menu__content__div-3-mobile">
+              <img
+                class="img-koledj-mobile"
+                src="img/koledj.svg"
+                alt=""
+                id="puncts-img2"
+              />
+              <p class="menu__content__div__text-mobile" id="text-2">
+                Обучение
+              </p>
+              <img
+                class="menu__content__div__arrow-mobile"
+                src="img/arrow.svg"
+                alt=""
+                id="arrow2"
+              />
+            </div>
+            <div class="menu__content__div-4-mobile">
+              <img
+                class="img-karandash-mobile"
+                src="img/karandash.svg"
+                alt=""
+                id="puncts-img3"
+              />
+              <p class="menu__content__div__text-mobile" id="text-3">
+                Запись на экзамен
+              </p>
+              <img
+                class="menu__content__div__arrow-mobile"
+                src="img/arrow.svg"
+                alt=""
+                id="arrow3"
+              />
+            </div>
+            <div class="menu__content__div-5-mobile">
+              <img
+                class="img-kubok-mobile"
+                src="img/kubok.svg"
+                alt=""
+                id="puncts-img4"
+              />
+              <p class="menu__content__div__text-mobile" id="text-4">
+                Результаты
+              </p>
+              <img
+                class="menu__content__div__arrow-mobile"
+                src="img/arrow.svg"
+                alt=""
+                id="arrow4"
+              />
+            </div>
+          </div>
+          <div class="menu__content__profile-mobile">
+            <div class="menu__content__profile__avatar-mobile" id="profile">
+              <p>A</p>
+            </div>
+            <div style="height: 50px">
+              <p class="menu__content__profile__text-mobile" id="profile__text">
+                Мой профиль
+              </p>
+              <p
+                class="menu__content__profile__text2-mobile"
+                id="profile__text2"
+              >
+                Выйти
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="menu__content__cricle-arrow" onclick="menu()">
+        <img src="img/arrow2.svg" alt="" />
+      </div>-->
+
+      <!-- <div class="menu__content__cricle-arrow" onclick="menu()">
+          <img src="img/arrow2.svg" alt="" />
+        </div>-->
+      
+        <div
+        class="page__content"
+        style="width: calc(100% - 40px); margin: 0 auto; margin-top: 30px;"
+      >
+        <p class="page__content__main-item">Банк вопросов</p>
+        <div class="view-results__content__button-1">
+          <div>
+            <img src="img/arrow-back.svg" alt="" />
+            <p>Назад</p>
+          </div>
+        </div>
+
+        <div class="bank-voprosov__block1" style="height: 197.27px">
+          <div
+            class="bank-voprosov__block1__content"
+            style="margin-top: 30px; width: calc(100% - 40px)"
+          >
+            <p class="bank-voprosov__block1__content__text-1">
+              <span>Квалификация</span>: Строитель
+            </p>
+            <p
+              class="bank-voprosov__block1__content__text-1"
+              style="margin-top: 10px"
+            >
+              <span>Профстандарт</span>: Специалист по организации
+              строительства
+            </p>
+            <div style="display: flex; width: 100%">
+              <input
+                class="bank-voprosov__block1__content__input"
+                type="text"
+                placeholder="Введите номер вопроса"
+              />
+              <img
+                class="bank-voprosov__block1__content__input__img"
+                src="img/lupa.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="view-results__content__main-block" style="height: 600px">
+          <div
+            class="view-results__content__main-block__content"
+            style="width: calc(100% - 40px)"
+          >
+            <div style="display: flex; width: 100%; align-items: center">
+              <p
+                class="view-results__content__main-block__content__main-text"
+                style="font-size: 22px"
+              >
+                Вопрос (1 из 485)
+              </p>
+
+              <!-- <div style="display: flex; margin-left: auto">
+              <div
+                class="view-results__content__main-block__content__button-arrow"
+              >
+                <img src="img/blue-arrow-left.svg" alt="" />
+              </div>
+              <div
+                class="view-results__content__main-block__content__button-arrow-2"
+              >
+                <img src="img/blue-arrow-left.svg" alt="" />
+              </div>
+            </div>-->
+            </div>
+
+            <p
+              class="view-results__content__main-block__content__text"
+              style="font-size: 16px; margin-top: 20px"
+            >
+              Какая характеристика объекта капитального строительства в
+              соответствии с проектной документацией НЕ относит его к
+              уникальным объектам?
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="view-results__content__main-block__content__block-input"
+          style="margin-top: -409px; height: 233px; width: calc(100% - 40px)"
+        >
+          <div style="display: flex; width: 100%">
+            <div
+              class="probniy-test__cricle"
+              id="probniy-test__cricle"
+              onclick="probniyTestCricle()"
+            ></div>
+            <input
+              class="view-results__content__main-block__content__input-1"
+              type="text"
+              placeholder="*********"
+              style="height: 45px; padding-left: 45px; padding-top: 20px"
+            />
+          </div>
+          <div style="display: flex; width: 100%">
+            <div
+              class="probniy-test__cricle"
+              id="probniy-test__cricle2"
+              onclick="probniyTestCricle2()"
+            ></div>
+            <input
+              class="view-results__content__main-block__content__input-2"
+              type="text"
+              placeholder="*********"
+              style="
+                height: 68px;
+                padding-left: 45px;
+                padding-top: 20px;
+                
+              "
+            />
+          </div>
+          <div style="display: flex; width: 100%">
+            <div
+              class="probniy-test__cricle"
+              id="probniy-test__cricle3"
+              onclick="probniyTestCricle3()"
+            ></div>
+            <input
+              class="view-results__content__main-block__content__input-3"
+              type="text"
+              placeholder="*********"
+              style="
+                height: 45px;
+                padding-left: 45px;
+                padding-top: 20px;
+                
+              "
+            />
+          </div>
+          <div style="display: flex; width: 100%">
+            <div
+              class="probniy-test__cricle"
+              id="probniy-test__cricle4"
+              onclick="probniyTestCricle4()"
+            ></div>
+            <input
+              class="view-results__content__main-block__content__input-1"
+              type="text"
+              placeholder="*********"
+              style="height: 45px; padding-left: 45px; padding-top: 20px"
+            />
+          </div>
+        </div>
+
+        <div style="display: flex; width: 100%">
+          <div
+            style="
+              display: flex;
+              margin: 0 auto;
+              align-items: center;
+              height: 53px;
+              margin-top: 20px;
+              width: 100%;
+            "
+          >
+            <!--<div
+            class="view-results__content__main-block__content__button-arrow"
+            style="margin: 0; width: 80px; height: 53px"
+          >
+            <img src="img/blue-arrow-left.svg" alt="" />
+          </div>-->
+            <div
+              class="view-results__content__main-block__content__block-input__button-blue dop-style"
+              style="margin: 0; width: calc(100% - 40px); margin: 0 auto;"
+            >
+              <p>Ответить</p>
+            </div>
+            <!-- <div
+            class="view-results__content__main-block__content__button-arrow-2"
+            style="width: 80px; height: 53px"
+          >
+            <img src="img/blue-arrow-left.svg" alt="" />
+          </div>-->
+          </div>
+        </div>
+        <div
+          style="
+            display: flex;
+            margin: 0 auto;
+            width: 170px;
+            margin-top: 20px;
+          "
+        >
+          <div
+            class="view-results__content__main-block__content__button-arrow"
+            style="margin: 0; width: 80px; height: 53px; margin-right: 10px"
+          >
+            <img src="img/blue-arrow-left.svg" alt="" />
+          </div>
+          <div
+            class="view-results__content__main-block__content__button-arrow-2"
+            style="width: 80px; height: 53px"
+          >
+            <img src="img/blue-arrow-left.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+
+      </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/imask"></script>
+  </body>
+</html>

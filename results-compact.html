@@ -1,0 +1,626 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="pade.css" />
+    <link rel="stylesheet" href="results.css" />
+    <link rel="stylesheet" href="menu-mobile.css">
+    <title>Результаты</title>
+  </head>
+  <body>
+    <div class="personal-acc-main-page-div page-pc" style="background: #fff;">
+      <!-- <div class="menu__content__cricle-arrow2" onclick="menu()" id="arrow-2">
+        <img src="img/arrow2.svg" alt="" />
+      </div> -->
+      <div class="button-arrow-blue" id="button-arrow-bbb-ggg" onclick="menu()">
+        <img id="img-arrow" src="img/arrow2.svg" alt="" />
+      </div>
+      <div class="menu" style="overflow: hidden" id="menu">
+        <div
+          class="menu__content"
+          style="overflow: hidden; text-overflow: ellipsis"
+          id="menu__content"
+        >
+          <div class="menu__content__div-1">
+            <img class="img-logo" src="img/logo.svg" alt="" id="img-logo" />
+
+            <p class="menu__content__text-nok" id="text-nok">НОК</p>
+          </div>
+
+          <div class="menu__content__text-div" id="menu__content__text">
+            <p class="menu__content__text">Независимая Оценка Квалификации</p>
+          </div>
+
+          <div class="menu__content__puncts" id="puncts">
+            <div class="menu__content__div-2">
+              <img class="img-dom" src="img/dom.svg" alt="" id="puncts-img" />
+              <p class="menu__content__div__text" id="text-1">Главная</p>
+              <img
+                class="menu__content__div__arrow"
+                src="img/arrow.svg"
+                alt=""
+                id="arrow1"
+              />
+            </div>
+            <div class="menu__content__div-3">
+              <img
+                class="img-koledj"
+                src="img/koledj.svg"
+                alt=""
+                id="puncts-img2"
+              />
+              <p class="menu__content__div__text" id="text-2">Обучение</p>
+              <img
+                class="menu__content__div__arrow"
+                src="img/arrow.svg"
+                alt=""
+                id="arrow2"
+              />
+            </div>
+            <div class="menu__content__div-4">
+              <img
+                class="img-karandash"
+                src="img/karandash.svg"
+                alt=""
+                id="puncts-img3"
+              />
+              <p class="menu__content__div__text" id="text-3">
+                Запись на экзамен
+              </p>
+              <img
+                class="menu__content__div__arrow"
+                src="img/arrow.svg"
+                alt=""
+                id="arrow3"
+              />
+            </div>
+            <div class="menu__content__div-5">
+              <img
+                class="img-kubok"
+                src="img/kubok.svg"
+                alt=""
+                id="puncts-img4"
+              />
+              <p class="menu__content__div__text" id="text-4">Результаты</p>
+              <img
+                class="menu__content__div__arrow"
+                src="img/arrow.svg"
+                alt=""
+                id="arrow4"
+              />
+            </div>
+          </div>
+          <div class="menu__content__profile">
+            <div class="menu__content__profile__avatar" id="profile">
+              <p>A</p>
+            </div>
+            <div style="height: 50px">
+              <p class="menu__content__profile__text" id="profile__text">
+                Мой профиль
+              </p>
+              <p class="menu__content__profile__text2" id="profile__text2">
+                Выйти
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="menu__content__cricle-arrow" onclick="menu()">
+        <img src="img/arrow2.svg" alt="" />
+      </div>-->
+
+      <div class="personal-acc-main-page " id="personal-page" style="background: #fff;">
+        <!-- <div class="menu__content__cricle-arrow" onclick="menu()">
+          <img src="img/arrow2.svg" alt="" />
+        </div>-->
+        <div
+          class="menu__content__cricle-arrow"
+          onclick="menu()"
+          id="arrow-page"
+        >
+          <img src="img/arrow2.svg" alt="" />
+        </div>
+
+        <div class="page__content media-display-none">
+          <p class="page__content__main-item">Результаты</p>
+          <div class="page__content__div-flex-1">
+            <p class="page__content__div-flex-1__left-text">
+              Минимальный балл для прохождения <br />
+              теста - 36, максимальный - 50
+            </p>
+            <p class="page__content__div-flex-1__right-text">Ваш средний балл</p>
+            <div class="page__content__div-flex-1__img-v2">
+                <p>24</p>
+            </div>
+          </div>
+          <p class="page__content__text-with-num">Симуляторов экзамена пройдено: <span>11</span> </p>
+          <div style="display: flex; width: 100% ; ">
+
+            <div style="margin-left: 0;" class="page__content__headings-div"><p class="page__content__headings-text">
+              Название теста</p> <img src="img/grey-min-arrow.svg" alt=""></div>
+            <div class="page__content__headings-div"><p class="page__content__headings-text">
+              Квалификация</p> <img src="img/grey-min-arrow.svg" alt=""></div>
+            <div class="page__content__headings-div"><p class="page__content__headings-text">
+              Баллы</p> <img src="img/grey-min-arrow.svg" alt=""></div>
+            <div class="page__content__headings-div"><p class="page__content__headings-text">
+              Начало</p> <img src="img/grey-min-arrow.svg" alt=""></div>
+  
+          </div>
+
+          <div class="page__content__block-list">
+            <div class="page__content__headings-div margin" style="margin-left: 0;">
+              <p class="page__content__block-list__bold-text">Пробный тест</p></div>
+            <div class="page__content__headings-div margin">
+              <p class="page__content__block-list__text">Строитель</p></div>
+            <div class="page__content__headings-div margin">
+              <p class="page__content__block-list__text">42</p></div>
+            <div class="page__content__headings-div margin">
+              <p class="page__content__block-list__text">20.05.23</p></div>
+            <div class="page__content__block-list__button"><p>Подробнее</p></div>
+          </div>
+          <div class="page__content__block-list">
+            <div class="page__content__headings-div margin" style="margin-left: 0;">
+              <p class="page__content__block-list__bold-text">Тренажер</p></div>
+            <div class="page__content__headings-div margin">
+              <p class="page__content__block-list__text">Проектировщик</p></div>
+            <div class="page__content__headings-div margin">
+              <p class="page__content__block-list__text">36</p></div>
+            <div class="page__content__headings-div margin">
+              <p class="page__content__block-list__text">13.05.23</p></div>
+            <div class="page__content__block-list__button"><p>Подробнее</p></div>
+          </div>
+          
+          <div class="page__content__block-list">
+            <div class="page__content__headings-div margin" style="margin-left: 0;">
+              <p class="page__content__block-list__bold-text">Экзамен</p></div>
+            <div class="page__content__headings-div margin">
+              <p class="page__content__block-list__text">Строитель</p></div>
+            <div class="page__content__headings-div margin">
+              <p class="page__content__block-list__text">22</p></div>
+            <div class="page__content__headings-div margin">
+              <p class="page__content__block-list__text">11.05.23</p></div>
+            <div class="page__content__block-list__button"><p>Подробнее</p></div>
+          </div>
+          
+          <div class="page__content__block-list">
+            <div class="page__content__headings-div margin" style="margin-left: 0;">
+              <p class="page__content__block-list__bold-text">Пробный тест</p></div>
+            <div class="page__content__headings-div margin">
+              <p class="page__content__block-list__text">Изыскатель</p></div>
+            <div class="page__content__headings-div margin">
+              <p class="page__content__block-list__text">50</p></div>
+            <div class="page__content__headings-div margin">
+              <p class="page__content__block-list__text">19.05.23</p></div>
+            <div class="page__content__block-list__button"><p>Подробнее</p></div>
+          </div>
+          
+          <div class="page__content__block-list">
+            <div class="page__content__headings-div margin" style="margin-left: 0;">
+              <p class="page__content__block-list__bold-text">Мой билет</p></div>
+            <div class="page__content__headings-div margin">
+              <p class="page__content__block-list__text">Изыскатель</p></div>
+            <div class="page__content__headings-div margin">
+              <p class="page__content__block-list__text">48</p></div>
+            <div class="page__content__headings-div margin">
+              <p class="page__content__block-list__text">23.05.23</p></div>
+            <div class="page__content__block-list__button"><p>Подробнее</p></div>
+          </div>
+          </div>
+        
+       
+     
+
+      <!-- PADE PADE PADE PADE PADE-->
+
+      <div class="page__content media-display-block" style="width: 100%; margin-left: 0; margin-top: 54px;">
+        <p class="page__content__main-item" style="margin-top: 0px;
+        margin-left: 40px;">Результаты</p>
+        
+        <div style="display: flex; width: 100%;">
+        <div style="display: flex; margin: 0 auto;
+        margin-top: 28px;">
+          <div class="page__conten__block-text-pade">
+              <p class="page__content__div-flex-1__left-text"
+              style="margin: 0;">
+                  Минимальный балл для прохождения 
+                  теста - 36, максимальный - 50
+                </p>
+          </div>
+          <div class="page__conten__block-text-pade">
+              <p class="page__content__text-with-num" style="text-align: center;
+               margin: auto;">
+                  Симуляторов экзамена пройдено: <span>11</span> </p>
+              
+        </div>
+      </div>
+       </div>
+       
+       <div style="display: flex; width: 100%;">
+
+          <div style="display: flex; margin: 0 auto; margin-top: 20px; align-items: center;">
+
+            <div class="page__content__div-flex-1__img-v2">
+                <p>24</p>
+            </div>
+
+              <div style="width: 114.5px; height: 42px; display: flex; margin-left: 20px;">
+                  <p class="page__content__div-flex-1__right-text"
+                  style="text-align: center; margin: 0; right: 0px; position: relative;">
+                      Ваш средний <br> балл</p>
+              </div>
+
+          </div>
+
+       </div>
+
+       <div style="display: flex; width: 100%; height: 58px; align-items: center;">
+          <div style="margin-left: 20px; margin-top: 0;" 
+          class="page__content__headings-div"><p class="page__content__headings-text">
+              Название теста</p> <img src="img/grey-min-arrow.svg" alt=""></div>
+             <div style="display: flex; align-items: center; 
+             margin-left: auto; margin-right: 70px;">
+             <p class="page__content__headings-text">
+                  Баллы</p> <img src="img/grey-min-arrow.svg" alt="" style="margin-left: 10px;"> 
+              </div>  
+       </div>
+       <div class="block-list-pade">
+          <p class="page__content__block-list__bold-text"
+          style="margin: 0; margin-left: 20px;">Пробный тест</p>
+          <p class="page__content__block-list__text"
+          style="margin-right: 20px; margin-left: auto;">42</p>
+           <div class="block-list-pade__button-blue">
+              <p>-</p>
+          </div>
+       </div>
+
+       <div class="grey-block-list-pade">
+
+        <div class="grey-block-list__content">
+
+          <div class="grey-block-list__content__block1-text">
+            <p style="color: #03111BB2; font-weight: 600;">
+              Квалификация</p>
+              <div class="grey-block-list__content__block1-text__line"></div>
+              <p class="grey-block-list__content__block1-text__text-right">
+                Строитель</p>
+          </div>
+          <div class="grey-block-list__content__block2-text">
+            <p style="color: #03111BB2; font-weight: 600;">
+              Начало</p>
+              <div class="grey-block-list__content__block2-text__line"></div>
+              <p class="grey-block-list__content__block1-text__text-right">
+                20.05.23</p>
+          </div>
+          
+        </div>
+
+        <div class="page__content__block-list__button" style="margin-right: 20px;"><p>Подробнее</p></div>
+
+       </div>
+
+       <div class="block-list-pade">
+        <p class="page__content__block-list__bold-text"
+        style="margin: 0; margin-left: 20px;">Тренажер</p>
+        <p class="page__content__block-list__text"
+        style="margin-right: 20px; margin-left: auto;">32</p>
+         <div class="block-list-pade__button-blue">
+            <p>+</p>
+        </div>
+     </div>
+     <div class="block-list-pade">
+      <p class="page__content__block-list__bold-text"
+      style="margin: 0; margin-left: 20px;">Экзамен</p>
+      <p class="page__content__block-list__text"
+      style="margin-right: 20px; margin-left: auto;">22</p>
+       <div class="block-list-pade__button-blue">
+          <p>+</p>
+      </div>
+   </div>
+   <div class="block-list-pade">
+    <p class="page__content__block-list__bold-text"
+    style="margin: 0; margin-left: 20px;">Пробный тест</p>
+    <p class="page__content__block-list__text"
+    style="margin-right: 20px; margin-left: auto;">55</p>
+     <div class="block-list-pade__button-blue">
+        <p>+</p>
+    </div>
+ </div>
+ <div class="block-list-pade">
+  <p class="page__content__block-list__bold-text"
+  style="margin: 0; margin-left: 20px;">Мой билет</p>
+  <p class="page__content__block-list__text"
+  style="margin-right: 20px; margin-left: auto;">48</p>
+   <div class="block-list-pade__button-blue">
+      <p>+</p>
+  </div>
+</div>
+       
+        <!-- <div class="page__content__div-flex-1">
+          <p class="page__content__div-flex-1__left-text">
+            Минимальный балл для прохождения <br />
+            теста - 36, максимальный - 50
+          </p>
+          <p class="page__content__div-flex-1__right-text">Ваш средний балл</p>
+          <div class="page__content__div-flex-1__img">
+              <p>38</p>
+          </div>
+        </div>
+        <p class="page__content__text-with-num">Симуляторов экзамена пройдено: <span>11</span> </p>
+        <div style="display: flex; width: 100% ; ">-->
+
+       </div>
+    </div>
+ </div>
+    </div>
+
+    
+    <!-- MOBILEEEEEEEEEEEEEEEEEEEEEEEEEE MOBILEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE MOBILEEEEEEEEEEEEEE -->
+
+
+    <div class="personal-acc-main-page-div page-mob" style="background: #fff; display: block; height: 1000px;">
+      <!-- <div class="menu__content__cricle-arrow2" onclick="menu()" id="arrow-2">
+        <img src="img/arrow2.svg" alt="" />
+      </div> -->
+      
+      <div class="menu-mob" id="menu-mob">
+        <div class="menu-mob__content">
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              height: 45px;
+              margin-top: 4px;
+            "
+          >
+            <img class="menu-mob__logo" src="img/logo.svg" alt="" />
+
+
+            <p class="menu-mob__content__text-nok" id="text-nok">НОК</p>
+
+            <img class="menu-mob-menu-img" src="img/menu.svg" alt="" id="menu-mob-menu" onclick="menuMob()"/>
+            <img class="crestik menu-mob-menu-img" src="img/crestik.svg" alt="" id="crestik">
+          </div>
+
+          <div class="menu__content__text-div-mobile" id="menu__content__text">
+            <p class="menu__content__text-mobile">Независимая Оценка Квалификации</p>
+          </div>
+
+          <div class="menu__content__puncts-mobile" id="puncts">
+            <div class="menu__content__div-2-mobile">
+              <img class="img-dom-mobile" src="img/dom.svg" alt="" id="puncts-img" />
+              <p class="menu__content__div__text-mobile" id="text-1">Главная</p>
+              <img
+                class="menu__content__div__arrow-mobile"
+                src="img/arrow.svg"
+                alt=""
+                id="arrow1"
+              />
+            </div>
+            <div class="menu__content__div-3-mobile">
+              <img
+                class="img-koledj-mobile"
+                src="img/koledj.svg"
+                alt=""
+                id="puncts-img2"
+              />
+              <p class="menu__content__div__text-mobile" id="text-2">Обучение</p>
+              <img
+                class="menu__content__div__arrow-mobile"
+                src="img/arrow.svg"
+                alt=""
+                id="arrow2"
+              />
+            </div>
+            <div class="menu__content__div-4-mobile">
+              <img
+                class="img-karandash-mobile"
+                src="img/karandash.svg"
+                alt=""
+                id="puncts-img3"
+              />
+              <p class="menu__content__div__text-mobile" id="text-3">
+                Запись на экзамен
+              </p>
+              <img
+                class="menu__content__div__arrow-mobile"
+                src="img/arrow.svg"
+                alt=""
+                id="arrow3"
+              />
+            </div>
+            <div class="menu__content__div-5-mobile">
+              <img
+                class="img-kubok-mobile"
+                src="img/kubok.svg"
+                alt=""
+                id="puncts-img4"
+              />
+              <p class="menu__content__div__text-mobile" id="text-4">Результаты</p>
+              <img
+                class="menu__content__div__arrow-mobile"
+                src="img/arrow.svg"
+                alt=""
+                id="arrow4"
+              />
+            </div>
+          </div>
+          <div class="menu__content__profile-mobile">
+            <div class="menu__content__profile__avatar-mobile" id="profile">
+              <p>A</p>
+            </div>
+            <div style="height: 50px">
+              <p class="menu__content__profile__text-mobile" id="profile__text">
+                Мой профиль
+              </p>
+              <p class="menu__content__profile__text2-mobile" id="profile__text2">
+                Выйти
+              </p>
+            </div>
+            </div>
+            </div>
+            </div>
+
+      <!-- <div class="menu__content__cricle-arrow" onclick="menu()">
+        <img src="img/arrow2.svg" alt="" />
+      </div>-->
+
+   
+        <!-- <div class="menu__content__cricle-arrow" onclick="menu()">
+          <img src="img/arrow2.svg" alt="" />
+        </div>-->
+        <div
+          class="menu__content__cricle-arrow"
+          onclick="menu()"
+          id="arrow-page"
+        >
+          <img src="img/arrow2.svg" alt="" />
+        </div>
+
+        <div class="page__content" style="width: 100%; margin-left: 0; margin-top: 30px;">
+            <p class="page__content__main-item" style="margin-top: 0px;
+            text-align: center;">Результаты</p>
+            
+            <div style="display: flex; width: 100%;">
+           
+                <div class="page__conten__block-text-pade" style="margin: 0 auto; margin-top: 30px;">
+                  <p class="page__content__div-flex-1__left-text"
+                  style="margin: 0; text-align: center;">
+                      Минимальный балл для прохождения 
+                      теста - 36, максимальный - 50
+                    </p>
+              </div>
+              
+        
+           </div>
+           
+           <div style="display: flex; width: 100%;">
+    
+              
+    
+            <div class="page__content__div-flex-1__img-v2" style="margin: 0 auto; margin-top: 20px;">
+                <p>24</p>
+            </div>
+    
+               
+              
+              </div>
+              
+              <p class="page__content__div-flex-1__right-text"
+                      style="text-align: center; margin: 0; right: 0px; position: relative; margin-top: 20px;">
+                          Ваш средний балл</p>
+
+    <p class="page__content__text-with-num" style="text-align: center;
+                   margin: auto; margin-top: 20px;">
+                      Симуляторов экзамена пройдено: <span>11</span> </p>
+
+           <div style="display: flex; width: 100%; height: 58px; align-items: center; margin-top: 30px;">
+              <div style="margin-left: 20px; margin-top: 0;" 
+              class="page__content__headings-div"><p class="page__content__headings-text">
+                  Название теста</p> <img src="img/grey-min-arrow.svg" alt=""></div>
+                 <div style="display: flex; align-items: center; 
+                 margin-left: auto; margin-right: 70px;">
+                 <p class="page__content__headings-text">
+                      Баллы</p> <img src="img/grey-min-arrow.svg" alt="" style="margin-left: 10px;"> 
+                  </div>  
+           </div>
+           <div class="block-list-pade">
+              <p class="page__content__block-list__bold-text"
+              style="margin: 0; margin-left: 20px;">Пробный тест</p>
+              <p class="page__content__block-list__text"
+              style="margin-right: 20px; margin-left: auto;">42</p>
+               <div class="block-list-pade__button-blue">
+                  <p>-</p>
+              </div>
+           </div>
+    
+           <div class="grey-block-list-pade" style="height: 136px;">
+    
+            <div class="grey-block-list__conten-mobile" style="margin-left: 20px;">
+    
+              
+                <p style="color: #03111BB2; font-weight: 600; margin: 0;">
+                  Квалификация</p>
+                
+                  <p class="grey-block-list__content__block1-text__text-right" style="margin: 0; margin-top: 5px;">
+                    Строитель</p>
+             
+            
+                <p style="color: #03111BB2; font-weight: 600; margin: 0; margin-top: 10px;">
+                  Начало</p>
+                
+                  <p class="grey-block-list__content__block1-text__text-right"
+                  style="margin: 0; margin-top: 5px;">
+                    20.05.23</p>
+            
+            </div>
+
+
+    
+           <div class="page__content__block-list__button" style="margin-right: 20px; margin-top: auto;
+           margin-bottom: 20px;"><p>Подробнее</p></div>
+    
+           </div>
+    
+           <div class="block-list-pade">
+            <p class="page__content__block-list__bold-text"
+            style="margin: 0; margin-left: 20px;">Тренажер</p>
+            <p class="page__content__block-list__text"
+            style="margin-right: 20px; margin-left: auto;">32</p>
+             <div class="block-list-pade__button-blue">
+                <p>+</p>
+            </div>
+         </div>
+         <div class="block-list-pade">
+          <p class="page__content__block-list__bold-text"
+          style="margin: 0; margin-left: 20px;">Экзамен</p>
+          <p class="page__content__block-list__text"
+          style="margin-right: 20px; margin-left: auto;">22</p>
+           <div class="block-list-pade__button-blue">
+              <p>+</p>
+          </div>
+       </div>
+       <div class="block-list-pade">
+        <p class="page__content__block-list__bold-text"
+        style="margin: 0; margin-left: 20px;">Пробный тест</p>
+        <p class="page__content__block-list__text"
+        style="margin-right: 20px; margin-left: auto;">55</p>
+         <div class="block-list-pade__button-blue">
+            <p>+</p>
+        </div>
+     </div>
+     <div class="block-list-pade">
+      <p class="page__content__block-list__bold-text"
+      style="margin: 0; margin-left: 20px;">Мой билет</p>
+      <p class="page__content__block-list__text"
+      style="margin-right: 20px; margin-left: auto;">48</p>
+       <div class="block-list-pade__button-blue">
+          <p>+</p>
+      </div>
+    </div>
+           
+            <!-- <div class="page__content__div-flex-1">
+              <p class="page__content__div-flex-1__left-text">
+                Минимальный балл для прохождения <br />
+                теста - 36, максимальный - 50
+              </p>
+              <p class="page__content__div-flex-1__right-text">Ваш средний балл</p>
+              <div class="page__content__div-flex-1__img">
+                  <p>38</p>
+              </div>
+            </div>
+            <p class="page__content__text-with-num">Симуляторов экзамена пройдено: <span>11</span> </p>
+            <div style="display: flex; width: 100% ; ">-->
+    
+           </div>
+    </div>
+
+    </div>
+   
+
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/imask"></script>
+  </body>
+</html>
