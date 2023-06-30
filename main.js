@@ -167,4 +167,15 @@ function menuClassificationV2() {
     .getElementById("blue-min-arrow")
     .classList.toggle("show-blue-min-arrow");
 }
-
+function probniyTestCricle() {
+  document.getElementById("probniy-test__cricle").classList.toggle("show-probniy-test__cricle");
+}
+function probniyTestCricle2() {
+  document.getElementById("probniy-test__cricle2").classList.toggle("show-probniy-test__cricle");
+}
+function probniyTestCricle3() {
+  document.getElementById("probniy-test__cricle3").classList.toggle("show-probniy-test__cricle");
+}
+function probniyTestCricle4() {
+  document.getElementById("probniy-test__cricle4").classList.toggle("show-probniy-test__cricle");
+}
