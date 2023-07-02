@@ -57,6 +57,9 @@
  .menu__content__cricle-arrow {
     display: none !important;
 }
+  .button-arrow-blue {
+     display: none !important;
+  }
 }
 .menu__content__cricle-arrow2 {
   display: none;
