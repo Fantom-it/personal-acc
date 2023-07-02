@@ -53,6 +53,11 @@
     margin-left: 273px;
   } */
 }
+@media only screen and (max-width: 930px) {
+ .menu__content__cricle-arrow {
+    display: none !important;
+}
+}
 .menu__content__cricle-arrow2 {
   display: none;
   width: 20px;
