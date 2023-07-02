@@ -1,435 +1,574 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="pade.css" />
-    <link rel="stylesheet" href="results.css" />
-    <link rel="stylesheet" href="menu-mobile.css" />
-    <link rel="stylesheet" href="simulytor-ecz.css" />
-    <title>Симулятор экзамена результаты</title>
-  </head>
-  <body style="background: #eff4f7; display: block; height: 1200px;">
-    
-     
-        <section class="page-pc">
-       
-        <div class="simulytor-ecz__top-block media-display-none">
-          <div style="display: flex; width: 100%">
-            <p class="simulytor-ecz__top-block__main-text">
-              Симулятор экзамена
-            </p>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="pade.css"/>
+      <link rel="stylesheet" href="proect.css">
+      <link rel="stylesheet" href="menu-mobile.css">
+      <link rel="stylesheet" href="results.css">
+      <link rel="stylesheet" href="simulytor-ecz.css">
+      <title>Симулятор экзамена результаты</title>
+      <style>
+        @media (width <= 1100px) {
+          .menu {
+            height: 1280px;
+          }
+        }
+      </style>
+    </head>
+    <body class="body-fuction">
+      <div class="personal-acc-main-page-div page-pc">
+         <div class="button-arrow-blue" id="button-arrow-bbb-ggg" onclick="menu()"><img id="img-arrow" src="img/arrow2.svg" alt="" /></div>
+        <div class="menu" style="overflow: hidden" id="menu">
+          <div
+            class="menu__content"
+            style="overflow: hidden; text-overflow: ellipsis"
+            id="menu__content"
+          >
+            <div class="menu__content__div-1">
+              <img class="img-logo" src="img/logo.svg" alt="" id="img-logo" />
+  
+              <p class="menu__content__text-nok" id="text-nok">НОК</p>
+            </div>
+  
+            <div class="menu__content__text-div" id="menu__content__text">
+              <p class="menu__content__text">Независимая Оценка Квалификации</p>
+            </div>
+  
+            <div class="menu__content__puncts" id="puncts">
+              <div class="menu__content__div-2">
+                <img class="img-dom" src="img/dom.svg" alt="" id="puncts-img" />
+                <p class="menu__content__div__text" id="text-1">Главная</p>
+                <img
+                  class="menu__content__div__arrow"
+                  src="img/arrow.svg"
+                  alt=""
+                  id="arrow1"
+                />
+              </div>
+              <div class="menu__content__div-3">
+                <img
+                  class="img-koledj"
+                  src="img/koledj.svg"
+                  alt=""
+                  id="puncts-img2"
+                />
+                <p class="menu__content__div__text" id="text-2">Обучение</p>
+                <img
+                  class="menu__content__div__arrow"
+                  src="img/arrow.svg"
+                  alt=""
+                  id="arrow2"
+                />
+              </div>
+              <div class="menu__content__div-4">
+                <img
+                  class="img-karandash"
+                  src="img/karandash.svg"
+                  alt=""
+                  id="puncts-img3"
+                />
+                <p class="menu__content__div__text" id="text-3">
+                  Запись на экзамен
+                </p>
+                <img
+                  class="menu__content__div__arrow"
+                  src="img/arrow.svg"
+                  alt=""
+                  id="arrow3"
+                />
+              </div>
+              <div class="menu__content__div-5">
+                <img
+                  class="img-kubok"
+                  src="img/kubok.svg"
+                  alt=""
+                  id="puncts-img4"
+                />
+                <p class="menu__content__div__text" id="text-4">Результаты</p>
+                <img
+                  class="menu__content__div__arrow"
+                  src="img/arrow.svg"
+                  alt=""
+                  id="arrow4"
+                />
+              </div>
+            </div>
+            <div class="menu__content__profile">
+              <div class="menu__content__profile__avatar" id="profile">
+                <p>A</p>
+              </div>
+              <div style="height: 50px">
+                <p class="menu__content__profile__text" id="profile__text">
+                  Мой профиль
+                </p>
+                <p class="menu__content__profile__text2" id="profile__text2">
+                  Выйти
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- <div class="menu__content__cricle-arrow" onclick="menu()">
+          <img src="img/arrow2.svg" alt="" />
+        </div>-->
+  
+        <div class="personal-acc-main-page pc" id="personal-page">
+          <div class="menu__content__cricle-arrow" onclick="menu()">
+            <img id="img-arrow-2" src="img/arrow2.svg" alt="" />
           </div>
           <div
-            style="display: flex; width: 100%; height: 61px; margin-top: 10px"
+            class="personal-acc-main-page__content fuction-main-page__content"
+            id="content"
           >
-            <div class="simulytor-ecz__top-block__list-bottom">
-              <section
-                class="view-results__content__button-1"
-                style="
-                  position: absolute;
-                  margin-left: -157px;
-                  margin-top: 15px;
-                "
-              >
-                <div>
-                  <img src="img/arrow-back.svg" alt="" style="width: 15px" />
-                  <p
-                    style="font-size: 16px; font-weight: 700; margin-left: 10px"
+          
+           
+          <section >
+
+            <section >
+       
+                <div class="simulytor-ecz__top-block media-display-none">
+                  <div style="display: flex; width: 100%">
+                    <p class="simulytor-ecz__top-block__main-text">
+                      Симулятор экзамена
+                    </p>
+                  </div>
+                  <div
+                    style="display: flex; width: 100%; height: 61px; margin-top: 10px"
                   >
-                    Назад
-                  </p>
-                </div>
-              </section>
-
-              <div >
-                <p>Тестовая часть</p>
-              </div>
-              <div style="width: 212px">
-                <p>Практическая часть</p>
-              </div>
-              <div style="width: 210px; border-bottom: 2px solid #007ad3">
-                <p>Завершить экзамен</p>
-            </div>
-          </div>
-        </div>
-
-       <section class="simulytor-ecz-results__main-block">
-        <div style="display: flex; width: 100%;">
-            <p class="simulytor-ecz-results__main-block__main-text">Результаты</p>
-        </div>
-        <section class="simulytor-ecz-results__main-block__content">
-           <div class="simulytor-ecz-results__main-block__content__div-text1">
-           <p>Квалификация: <span>Строитель</span></p>
-           </div>
-           <div class="simulytor-ecz-results__main-block__content__div-text2">
-            <p>Затраченное время: <br> <span>29 мин</span></p>
-            </div>
-            <div class="simulytor-ecz-results__main-block__content__div-text3">
-                <p
-               >Кол-во вопросов: <span>50</span></p>
-                <p 
-                style="margin-top: 10px;">
-                Кол-во верных ответов:<span>24</span></p>
-                </div>
-                <div class="page__content__div-flex-1__img-v2">
-                    <p>24</p>
-                </div>
-        </section>
-        <div class="simulytor-ecz-results__main-block__button">
-           <p>Подробнее</p> 
-        </div>
-       </section>
-         
-          </div>
+                    <div class="simulytor-ecz__top-block__list-bottom">
+                      <section
+                        class="view-results__content__button-1"
+                        style="
+                          position: absolute;
+                          margin-left: -157px;
+                          margin-top: 15px;
+                        "
+                      >
+                        <div>
+                          <img src="img/arrow-back.svg" alt="" style="width: 15px" />
+                          <p
+                            style="font-size: 16px; font-weight: 700; margin-left: 10px"
+                          >
+                            Назад
+                          </p>
+                        </div>
+                      </section>
         
+                      <div >
+                        <p>Тестовая часть</p>
+                      </div>
+                      <div style="width: 212px">
+                        <p>Практическая часть</p>
+                      </div>
+                      <div style="width: 210px; border-bottom: 2px solid #007ad3">
+                        <p>Завершить экзамен</p>
+                    </div>
+                  </div>
+                </div>
+        
+               <section class="simulytor-ecz-results__main-block">
+                <div style="display: flex; width: 100%;">
+                    <p class="simulytor-ecz-results__main-block__main-text">Результаты</p>
+                </div>
+                <section class="simulytor-ecz-results__main-block__content">
+                   <div class="simulytor-ecz-results__main-block__content__div-text1">
+                   <p>Квалификация: <br> <span>Строитель</span></p>
+                   </div>
+                   <div class="simulytor-ecz-results__main-block__content__div-text2">
+                    <p>Затраченное время: <br> <span>29 мин</span></p>
+                    </div>
+                    <div class="simulytor-ecz-results__main-block__content__div-text3">
+                        <p
+                       >Кол-во вопросов: <span>50</span></p>
+                        <p 
+                        style="margin-top: 10px;">
+                        Кол-во верных ответов:<span>24</span></p>
+                        </div>
+                        <div class="page__content__div-flex-1__img-v2">
+                            <p>24</p>
+                        </div>
+                </section>
+                <div class="simulytor-ecz-results__main-block__button">
+                   <p>Подробнее</p> 
+                </div>
+               </section>
+              </div>
 
-        <!-- PADE PADE PADE PADE PADE PADE PADE PADE --> 
+        </div>
+  
+      </div>
 
-        <section class="media-display-block">
-        <div class="page__content media-display-block"
-        style="width: calc(100% - 80px); margin-left: 35px;">
+
+
+
+
+
+
+        <div class="personal-acc-main-page pade" id="personal-page" style="background: #EFF4F7;"> 
+          <div class="menu__content__cricle-arrow"
+           onclick="menu()">
+            <img src="img/arrow2.svg" alt="" />
+          </div>
+          <div
+            class="personal-acc-main-page__content fuction-main-page__content"
+            style="width: calc(100% - 80px); margin-left: 35px; margin-top: 54px !important;"
+            id="content"
+          >
           <p class="page__content__main-item">Симулятор экзамена</p>
 
-          <div class="view-results__content__button-1">
-              <div>
-                  <img src="img/arrow-back.svg" alt="">
-                  <p>Назад</p>
-              </div>
-          </div>
-          
-          <div class="block-list" id="block-list" style="height: 49px;">
-       
-            <div class="block-list__content">
+        <div class="view-results__content__button-1">
+            <div>
+                <img src="img/arrow-back.svg" alt="">
+                <p>Назад</p>
+            </div>
+        </div>
+        
+        <div class="block-list" id="block-list" style="height: 49px;">
+     
+          <div class="block-list__content">
 
-              <div>
-                <p class="block-list__content__item">Тестовая часть</p>
-                <p class="block-list__content__item">Практическая часть</p>
-                <p class="block-list__content__last-item">Завершить экзамен</p>
-              </div>
-
-              <img onclick="menuClassification()" class="block-list__content__arrow" src="img/blue-min-arrow.svg" alt="" id="blue-min-arrow">
-
+            <div>
+              <p class="block-list__content__item">Тестовая часть</p>
+              <p class="block-list__content__item">Практическая часть</p>
+              <p class="block-list__content__last-item">Завершить экзамен</p>
             </div>
 
+            <img onclick="menuClassification()" class="block-list__content__arrow" src="img/blue-min-arrow.svg" alt="" id="blue-min-arrow">
+
           </div>
 
-       
-          
+        </div>
 
-          <section class="simulytor-ecz-results__main-block-pade"
-          style="text-align: center; height: 420px; padding-top: 30px;">
-           
-                <p class="simulytor-ecz-results__main-block__main-text"
-                style="margin-top: 0;">Результаты</p>
-            
-           
-               
-               <div style="font-size: 18px; font-weight: 600;">
-               <p style="margin: 0; 
-                margin-top: 20px;">Квалификация:
-                <span style="font-weight: 400;">Строитель</span></p>
-              
-               
-              
-                <p style="margin: 0;
-                margin-top: 20px;">Затраченное время: 
-                <span style="font-weight: 400;">29 мин</span></p>
+     
+        
+
+        <section class="simulytor-ecz-results__main-block-pade"
+        style="text-align: center; height: 420px; padding-top: 30px;">
+         
+              <p class="simulytor-ecz-results__main-block__main-text"
+              style="margin-top: 0;">Результаты</p>
+          
+         
              
-               
-                    <p style="margin: 0;
-                    margin-top: 20px;">Кол-во вопросов:
-                    <span style="font-weight: 400;">50</span></p>
-                    <p 
-                    style="margin-top: 10px;">
-                    Кол-во верных ответов:
-                     <span style="font-weight: 400;">24</span></p>
-                    </div>
-                    <div class="page__content__div-flex-1__img-v2"
-                    style="margin: 0 auto;">
-                        <p>24</p>
-                    </div>
+             <div style="font-size: 18px; font-weight: 600;">
+             <p style="margin: 0; 
+              margin-top: 20px;">Квалификация:
+              <span style="font-weight: 400;">Строитель</span></p>
             
-            <div class="simulytor-ecz-results__main-block__button">
-               <p>Подробнее</p> 
-            </div>
-           </section>
+             
+            
+              <p style="margin: 0;
+              margin-top: 20px;">Затраченное время: 
+              <span style="font-weight: 400;">29 мин</span></p>
            
-           <p 
-           style="font-size: 36px; font-weight: 700; color: #42505C;
-           text-align: center; margin-top: 30px;">
-           Хотите лучше <br> подготовиться?</p>
+             
+                  <p style="margin: 0;
+                  margin-top: 20px;">Кол-во вопросов:
+                  <span style="font-weight: 400;">50</span></p>
+                  <p 
+                  style="margin-top: 10px;">
+                  Кол-во верных ответов:
+                   <span style="font-weight: 400;">24</span></p>
+                  </div>
+                  <div class="page__content__div-flex-1__img-v2"
+                  style="margin: 0 auto;">
+                      <p>24</p>
+                  </div>
+          
+          <div class="simulytor-ecz-results__main-block__button">
+             <p>Подробнее</p> 
+          </div>
+         </section>
+         
+         <p 
+         style="font-size: 36px; font-weight: 700; color: #42505C;
+         text-align: center; margin-top: 30px;">
+         Хотите лучше <br> подготовиться?</p>
+
+        
 
           
-  
-            
-          </div>
-       
-         
-        
+        </div>
      
-     
-        <div class="main-str__content__grey-block"
-        style="margin-top: 100px;">
-            <img class="left-arrow" src="img/left-arrow.svg" alt="" />
-            <div class="main-str__content__grey-block__content">
-              <p class="main-str__content__grey-block__content__main-text">
-                ОБУЧЕНИЕ ИТР <br />
-                И РАБОЧИХ
-              </p>
-              <div class="main-str__content__grey-block__content__div-text">
-                <p>- Удостоверения рабочих специальностей</p>
-                <p>- Удостоверения по аттестации ИТР</p>
-                <p>- Повышение квалификации и проф. переподготовка</p>
-              </div>
-  
-              <div class="main-str__content__grey-block__content__button">
-                <p>Узнать подробнее</p>
-              </div>
-            </div>
-  
-            <img class="right-arrow" src="img/right-arrow.svg" alt="" />
-          </div>
-       </div>
-</div>   
-</div> 
-    
-    </section>
-
-</section>
-<!-- MOBILE MIBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE -->
-
-
-
-<div class="personal-acc-main-page-div page-mob"
-style="display: block;">
-  <!-- <div class="menu__content__cricle-arrow2" onclick="menu()" id="arrow-2">
-    <img src="img/arrow2.svg" alt="" />
-  </div> -->
-  
-  <div class="menu-mob" id="menu-mob">
-    <div class="menu-mob__content">
-      <div
-        style="
-          display: flex;
-          align-items: center;
-          height: 45px;
-          margin-top: 4px;
-        "
-      >
-        <img class="menu-mob__logo" src="img/logo.svg" alt="" />
-
-
-        <p class="menu-mob__content__text-nok" id="text-nok">НОК</p>
-
-        <img class="menu-mob-menu-img" src="img/menu.svg" alt="" id="menu-mob-menu" onclick="menuMob()"/>
-        <img class="crestik menu-mob-menu-img" src="img/crestik.svg" alt="" id="crestik">
-      </div>
-
-      <div class="menu__content__text-div-mobile" id="menu__content__text">
-        <p class="menu__content__text-mobile">Независимая Оценка Квалификации</p>
-      </div>
-
-      <div class="menu__content__puncts-mobile" id="puncts">
-        <div class="menu__content__div-2-mobile">
-          <img class="img-dom-mobile" src="img/dom.svg" alt="" id="puncts-img" />
-          <p class="menu__content__div__text-mobile" id="text-1">Главная</p>
-          <img
-            class="menu__content__div__arrow-mobile"
-            src="img/arrow.svg"
-            alt=""
-            id="arrow1"
-          />
-        </div>
-        <div class="menu__content__div-3-mobile">
-          <img
-            class="img-koledj-mobile"
-            src="img/koledj.svg"
-            alt=""
-            id="puncts-img2"
-          />
-          <p class="menu__content__div__text-mobile" id="text-2">Обучение</p>
-          <img
-            class="menu__content__div__arrow-mobile"
-            src="img/arrow.svg"
-            alt=""
-            id="arrow2"
-          />
-        </div>
-        <div class="menu__content__div-4-mobile">
-          <img
-            class="img-karandash-mobile"
-            src="img/karandash.svg"
-            alt=""
-            id="puncts-img3"
-          />
-          <p class="menu__content__div__text-mobile" id="text-3">
-            Запись на экзамен
-          </p>
-          <img
-            class="menu__content__div__arrow-mobile"
-            src="img/arrow.svg"
-            alt=""
-            id="arrow3"
-          />
-        </div>
-        <div class="menu__content__div-5-mobile">
-          <img
-            class="img-kubok-mobile"
-            src="img/kubok.svg"
-            alt=""
-            id="puncts-img4"
-          />
-          <p class="menu__content__div__text-mobile" id="text-4">Результаты</p>
-          <img
-            class="menu__content__div__arrow-mobile"
-            src="img/arrow.svg"
-            alt=""
-            id="arrow4"
-          />
-        </div>
-      </div>
-      <div class="menu__content__profile-mobile">
-        <div class="menu__content__profile__avatar-mobile" id="profile">
-          <p>A</p>
-        </div>
-        <div style="height: 50px">
-          <p class="menu__content__profile__text-mobile" id="profile__text">
-            Мой профиль
-          </p>
-          <p class="menu__content__profile__text2-mobile" id="profile__text2">
-            Выйти
-          </p>
-        </div>
-        </div>
-        </div>
-        </div>
-
-  <!-- <div class="menu__content__cricle-arrow" onclick="menu()">
-    <img src="img/arrow2.svg" alt="" />
-  </div>-->
-
-  
-    
-
-    
-    <div class="page__content"
-    style="width: calc(100% - 40px); margin: 0 auto; margin-top: 30px;">
-   
-      <div style="display: flex; width: 100%;">
-         <div class="view-results__content__button-1" style="min-width: 92px; margin-top: auto;">
-          <div>
-              <img src="img/arrow-back.svg" alt="">
-              <p>Назад</p>
-          </div>
        
-      </div>
-<p class="page__content__main-item"  style="float: right; text-align: right; ">Просмотр результатов</p>
-      </div>
       
-      <div class="block-list" id="block-list" style="height: 49px;">
-   
-        <div class="block-list__content">
-
-          <div>
-            <p class="block-list__content__item">Тестовая часть</p>
-            <p class="block-list__content__item">Практическая часть</p>
-            <p class="block-list__content__last-item">Завершить экзамен</p>
-          </div>
-
-          <img onclick="menuClassification()" class="block-list__content__arrow" src="img/blue-min-arrow.svg" alt="" id="blue-min-arrow">
-
-        </div>
-
-      </div>
-
-     
-
-      <section class="simulytor-ecz-results__main-block-pade"
-      style="text-align: center; height: 420px; padding-top: 30px;">
-       
-            <p class="simulytor-ecz-results__main-block__main-text"
-            style="margin-top: 0;">Результаты</p>
-        
-       
-           
-           <div style="font-size: 18px; font-weight: 600;">
-           <p style="margin: 0; 
-            margin-top: 20px;">Квалификация:
-            <span style="font-weight: 400;">Строитель</span></p>
-          
-           
-          
-            <p style="margin: 0;
-            margin-top: 20px;">Затраченное время: 
-            <span style="font-weight: 400;">29 мин</span></p>
-         
-           
-                <p style="margin: 0;
-                margin-top: 20px;">Кол-во вопросов:
-                <span style="font-weight: 400;">50</span></p>
-                <p 
-                style="margin-top: 10px;">
-                Кол-во верных ответов:
-                 <span style="font-weight: 400;">24</span></p>
-                </div>
-                <div class="page__content__div-flex-1__img-v2"
-                style="margin: 0 auto;">
-                    <p>24</p>
-                </div>
-        
-        <div class="simulytor-ecz-results__main-block__button">
-           <p>Подробнее</p> 
-        </div>
-       </section>
-       
-       <p 
-       style="font-size: 36px; font-weight: 700; color: #42505C;
-       text-align: center; margin-top: 30px;">
-       Хотите лучше <br> подготовиться?</p>
-
-       
-     
-      </div>
-     
    
    
       <div class="main-str__content__grey-block"
-      style="margin-top: 95px;">
-                  
-        <div class="main-str__content__grey-block__content"
-        style="margin: 0 auto; margin-top: 60px; width: calc(100% - 40px);">
-          <p class="main-str__content__grey-block__content__main-text"
-          style="font-size: 36px; text-align: center;">
-            ОБУЧЕНИЕ ИТР И <br> РАБОЧИХ</p>
-            <div class="main-str__content__grey-block__content__div-text" style="margin: 0 auto; white-space: normal; font-size: 14px;
-            margin-top: 24px;">
-
-              <p>- Удостоверения рабочих специальностей </p>
-              <p>- Удостоверения по аттестации ИТР </p>
-              <p>- Повышение квалификации и проф. переподготовка </p>
-            
+      style="margin-top: 30px;">
+          <img class="left-arrow" src="img/left-arrow.svg" alt="" />
+          <div class="main-str__content__grey-block__content">
+            <p class="main-str__content__grey-block__content__main-text">
+              ОБУЧЕНИЕ ИТР <br />
+              И РАБОЧИХ
+            </p>
+            <div class="main-str__content__grey-block__content__div-text">
+              <p>- Удостоверения рабочих специальностей</p>
+              <p>- Удостоверения по аттестации ИТР</p>
+              <p>- Повышение квалификации и проф. переподготовка</p>
             </div>
 
-            <div style="display: flex; width: 100%; height: 0; margin-top: 25px;">
-              <img class="left-arrow" src="img/left-arrow.svg" alt="" style="margin-left: 0px;  margin-top: auto;">
-              <img class="right-arrow" src="img/right-arrow.svg" alt="" style="margin-right: 0px; margin-top: auto;">
-            </div>
-
-            <div class="main-str__content__grey-block__content__button"
-            style="margin: 0 auto; margin-top: 66px; width: calc(100% - 40px);">
-
+            <div class="main-str__content__grey-block__content__button">
               <p>Узнать подробнее</p>
-
             </div>
+          </div>
 
+          <img class="right-arrow" src="img/right-arrow.svg" alt="" />
         </div>
+     </div>
+</div>   
+  
+  
+        </div>
+  
+      </div>
     
 
-</div>
 
-    <script src="main.js"></script>
-    <script src="https://unpkg.com/imask"></script>
-  </body>
-</html>
+
+
+
+
+
+
+      <div class="personal-acc-main-page-div page-mob" style="display: block;">
+
+        <div class="menu-mob" id="menu-mob">
+          <div class="menu-mob__content">
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                height: 45px;
+                margin-top: 4px;
+              "
+            >
+              <img class="menu-mob__logo" src="img/logo.svg" alt="" />
+  
+  
+              <p class="menu-mob__content__text-nok" id="text-nok">НОК</p>
+  
+              <img class="menu-mob-menu-img" src="img/menu.svg" alt="" id="menu-mob-menu" onclick="menuMob()"/>
+              <img class="crestik menu-mob-menu-img" src="img/crestik.svg" alt="" id="crestik">
+            </div>
+  
+            <div class="menu__content__text-div-mobile" id="menu__content__text">
+              <p class="menu__content__text-mobile">Независимая Оценка Квалификации</p>
+            </div>
+  
+            <div class="menu__content__puncts-mobile" id="puncts">
+              <div class="menu__content__div-2-mobile">
+                <img class="img-dom-mobile" src="img/dom.svg" alt="" id="puncts-img" />
+                <p class="menu__content__div__text-mobile" id="text-1">Главная</p>
+                <img
+                  class="menu__content__div__arrow-mobile"
+                  src="img/arrow.svg"
+                  alt=""
+                  id="arrow1"
+                />
+              </div>
+              <div class="menu__content__div-3-mobile">
+                <img
+                  class="img-koledj-mobile"
+                  src="img/koledj.svg"
+                  alt=""
+                  id="puncts-img2"
+                />
+                <p class="menu__content__div__text-mobile" id="text-2">Обучение</p>
+                <img
+                  class="menu__content__div__arrow-mobile"
+                  src="img/arrow.svg"
+                  alt=""
+                  id="arrow2"
+                />
+              </div>
+              <div class="menu__content__div-4-mobile">
+                <img
+                  class="img-karandash-mobile"
+                  src="img/karandash.svg"
+                  alt=""
+                  id="puncts-img3"
+                />
+                <p class="menu__content__div__text-mobile" id="text-3">
+                  Запись на экзамен
+                </p>
+                <img
+                  class="menu__content__div__arrow-mobile"
+                  src="img/arrow.svg"
+                  alt=""
+                  id="arrow3"
+                />
+              </div>
+              <div class="menu__content__div-5-mobile">
+                <img
+                  class="img-kubok-mobile"
+                  src="img/kubok.svg"
+                  alt=""
+                  id="puncts-img4"
+                />
+                <p class="menu__content__div__text-mobile" id="text-4">Результаты</p>
+                <img
+                  class="menu__content__div__arrow-mobile"
+                  src="img/arrow.svg"
+                  alt=""
+                  id="arrow4"
+                />
+              </div>
+            </div>
+            <div class="menu__content__profile-mobile">
+              <div class="menu__content__profile__avatar-mobile" id="profile">
+                <p>A</p>
+              </div>
+              <div style="height: 50px">
+                <p class="menu__content__profile__text-mobile" id="profile__text">
+                  Мой профиль
+                </p>
+                <p class="menu__content__profile__text2-mobile" id="profile__text2">
+                  Выйти
+                </p>
+              </div>
+              </div>
+              </div>
+              </div>
+  
+           
+  
+      
+  
+      <!-- <div class="menu__content__cricle-arrow" onclick="menu()">
+        <img src="img/arrow2.svg" alt="" />
+      </div>-->
+  
+      <div class="personal-acc-main-page-mobile" id="personal-page" style="background: #EFF4F7;
+      margin-left: 0;"> 
+        
+        <div
+          class="personal-acc-main-page__content fuction-main-page__content"
+          id="content" style="width: calc(100% - 40px); margin: 0 auto; margin-top: 30px !important;">
+        
+         
+
+        <div style="display: flex; width: 100%;">
+          <div class="view-results__content__button-1" style="min-width: 92px; margin-top: auto;">
+           <div>
+               <img src="img/arrow-back.svg" alt="">
+               <p>Назад</p>
+           </div>
+        
+       </div>
+ <p class="page__content__main-item"  style="float: right; text-align: right; white-space: normal;">Просмотр результатов</p>
+       </div>
+       
+       <div class="block-list" id="block-list" style="height: 49px;">
+    
+         <div class="block-list__content">
+ 
+           <div>
+             <p class="block-list__content__item">Тестовая часть</p>
+             <p class="block-list__content__item">Практическая часть</p>
+             <p class="block-list__content__last-item">Завершить экзамен</p>
+           </div>
+ 
+           <img onclick="menuClassification()" class="block-list__content__arrow" src="img/blue-min-arrow.svg" alt="" id="blue-min-arrow">
+ 
+         </div>
+ 
+       </div>
+ 
+      
+ 
+       <section class="simulytor-ecz-results__main-block-pade"
+       style="text-align: center; height: 420px; padding-top: 30px;">
+        
+             <p class="simulytor-ecz-results__main-block__main-text"
+             style="margin-top: 0;">Результаты</p>
+         
+        
+            
+            <div style="font-size: 18px; font-weight: 600;">
+            <p style="margin: 0; 
+             margin-top: 20px;">Квалификация:
+             <span style="font-weight: 400;">Строитель</span></p>
+           
+            
+           
+             <p style="margin: 0;
+             margin-top: 20px;">Затраченное время: 
+             <span style="font-weight: 400;">29 мин</span></p>
+          
+            
+                 <p style="margin: 0;
+                 margin-top: 20px;">Кол-во вопросов:
+                 <span style="font-weight: 400;">50</span></p>
+                 <p 
+                 style="margin-top: 10px;">
+                 Кол-во верных ответов:
+                  <span style="font-weight: 400;">24</span></p>
+                 </div>
+                 <div class="page__content__div-flex-1__img-v2"
+                 style="margin: 0 auto;">
+                     <p>24</p>
+                 </div>
+         
+         <div class="simulytor-ecz-results__main-block__button">
+            <p>Подробнее</p> 
+         </div>
+        </section>
+        
+        <p 
+        style="font-size: 36px; font-weight: 700; color: #42505C;
+        text-align: center; margin-top: 30px;">
+        Хотите лучше <br> подготовиться?</p>
+ 
+        
+      
+       </div>
+      
+    
+    
+       <div class="main-str__content__grey-block"
+       style="margin-top: 30px;">
+                   
+         <div class="main-str__content__grey-block__content"
+         style="margin: 0 auto; margin-top: 60px; width: calc(100% - 40px);">
+           <p class="main-str__content__grey-block__content__main-text"
+           style="font-size: 36px; text-align: center;">
+             ОБУЧЕНИЕ ИТР И <br> РАБОЧИХ</p>
+             <div class="main-str__content__grey-block__content__div-text" style="margin: 0 auto; white-space: normal; font-size: 14px;
+             margin-top: 24px;">
+ 
+               <p>- Удостоверения рабочих специальностей </p>
+               <p>- Удостоверения по аттестации ИТР </p>
+               <p>- Повышение квалификации и проф. переподготовка </p>
+             
+             </div>
+ 
+             <div style="display: flex; width: 100%; height: 0; margin-top: 25px;">
+               <img class="left-arrow" src="img/left-arrow.svg" alt="" style="margin-left: 0px;  margin-top: auto;">
+               <img class="right-arrow" src="img/right-arrow.svg" alt="" style="margin-right: 0px; margin-top: auto;">
+             </div>
+ 
+             <div class="main-str__content__grey-block__content__button"
+             style="margin: 0 auto; margin-top: 66px; width: calc(100% - 40px);">
+ 
+               <p>Узнать подробнее</p>
+ 
+             </div>
+ 
+  
+  
+  
+      </div>
+     
+    </div>
+  
+
+  
+      <script src="main.js"></script>
+      <script src="https://unpkg.com/imask"></script>
+    </body>
+  </html>
+  
