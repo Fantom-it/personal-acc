@@ -540,7 +540,7 @@
   overflow: hidden;
 }
 .show-block-list {
-  height: 113px;
+  height: 113px !important;
 }
 .block-list__content {
   display: flex;
